@@ -1,0 +1,1105 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	common.h	157;"	d
+ADDR_HL_MASK_BIT	flash_info.h	250;"	d
+ADDR_HL_MASK_BIT	flash_info.h	273;"	d
+ADDR_HL_MASK_BIT	flash_info.h	298;"	d
+ADDR_HL_MASK_BIT	flash_info.h	318;"	d
+ADD_LOC_ECC	common_flash.c	/^int ADD_LOC_ECC[DDUTCNT]={0};$/;"	v
+ADD_LOC_F_VCODE	flash_info.h	211;"	d
+ADD_LOC_I_VCODE_H4	flash_info.h	215;"	d
+ADD_LOC_I_VCODE_L6	flash_info.h	213;"	d
+ADD_LOC_I_VCODE_M6	flash_info.h	214;"	d
+ADD_LOC_XY_H	flash_info.h	207;"	d
+ADD_LOC_XY_L	flash_info.h	206;"	d
+ADD_WAFERID_H	flash_info.h	209;"	d
+ADD_WAFERID_L	flash_info.h	208;"	d
+AREA_M	flash_info.h	181;"	d
+AREA_M_R	flash_info.h	186;"	d
+AREA_M_R_N	flash_info.h	187;"	d
+AREA_N	flash_info.h	182;"	d
+AREA_NC	flash_info.h	183;"	d
+AREA_R0	flash_info.h	184;"	d
+AREA_R1	flash_info.h	185;"	d
+AREA_R_MIN	flash_info.h	232;"	d
+AREA_R_MIN	flash_info.h	253;"	d
+AREA_R_MIN	flash_info.h	280;"	d
+AREA_R_MIN	flash_info.h	301;"	d
+AREA_R_NUM	flash_info.h	233;"	d
+AREA_R_NUM	flash_info.h	254;"	d
+AREA_R_NUM	flash_info.h	281;"	d
+AREA_R_NUM	flash_info.h	302;"	d
+AlpgPatExec	common.c	/^void AlpgPatExec( char *patfile, char *startlabel)$/;"	f
+AlpgPatStart	common.c	/^void AlpgPatStart(char *patfile, char *startlabel)$/;"	f
+AlpgPatStartNowait	common.c	/^void AlpgPatStartNowait(char *patfile, char *startlabel)$/;"	f
+C0	common.h	243;"	d
+C1	common.h	244;"	d
+C10	common.h	253;"	d
+C11	common.h	254;"	d
+C12	common.h	255;"	d
+C13	common.h	256;"	d
+C14	common.h	257;"	d
+C15	common.h	258;"	d
+C16	common.h	259;"	d
+C17	common.h	260;"	d
+C18	common.h	261;"	d
+C19	common.h	262;"	d
+C2	common.h	245;"	d
+C20	common.h	263;"	d
+C21	common.h	264;"	d
+C22	common.h	265;"	d
+C23	common.h	266;"	d
+C24	common.h	267;"	d
+C25	common.h	268;"	d
+C26	common.h	269;"	d
+C27	common.h	270;"	d
+C28	common.h	271;"	d
+C29	common.h	272;"	d
+C3	common.h	246;"	d
+C30	common.h	273;"	d
+C31	common.h	274;"	d
+C4	common.h	247;"	d
+C5	common.h	248;"	d
+C6	common.h	249;"	d
+C7	common.h	250;"	d
+C8	common.h	251;"	d
+C9	common.h	252;"	d
+CBD0	common_flash.c	/^int CBD0[DDUTCNT][FLASH_NUM]={0xffff7fc9};$/;"	v
+CBD0_ECC	common_flash.c	/^int CBD0_ECC[DDUTCNT][FLASH_NUM]={0};$/;"	v
+CBD1	common_flash.c	/^int CBD1[DDUTCNT][FLASH_NUM]={0xffffffff};$/;"	v
+CBD1_ECC	common_flash.c	/^int CBD1_ECC[DDUTCNT][FLASH_NUM]={0};$/;"	v
+CBD2	common_flash.c	/^int CBD2[DDUTCNT][FLASH_NUM]={0xffffffff};$/;"	v
+CBD2_ECC	common_flash.c	/^int CBD2_ECC[DDUTCNT][FLASH_NUM]={0};$/;"	v
+CBD3	common_flash.c	/^int CBD3[DDUTCNT][FLASH_NUM]={0xffffffff};$/;"	v
+CBD3_ECC	common_flash.c	/^int CBD3_ECC[DDUTCNT][FLASH_NUM]={0};$/;"	v
+CBD4	common_flash.c	/^int CBD4[DDUTCNT][FLASH_NUM]={0xffffffff};$/;"	v
+CBD4_ECC	common_flash.c	/^int CBD4_ECC[DDUTCNT][FLASH_NUM]={0};$/;"	v
+CBD5	common_flash.c	/^int CBD5[DDUTCNT][FLASH_NUM]={0xffffffff};$/;"	v
+CBD5_ECC	common_flash.c	/^int CBD5_ECC[DDUTCNT][FLASH_NUM]={0};$/;"	v
+CBD6	common_flash.c	/^int CBD6[DDUTCNT][FLASH_NUM]={0xffffffff};$/;"	v
+CBD6_ECC	common_flash.c	/^int CBD6_ECC[DDUTCNT][FLASH_NUM]={0};$/;"	v
+CBD7	common_flash.c	/^int CBD7[DDUTCNT][FLASH_NUM]={0xffffffff};$/;"	v
+CBD7_ECC	common_flash.c	/^int CBD7_ECC[DDUTCNT][FLASH_NUM]={0};$/;"	v
+COORD_WAFER_ID_ADDR	flash_info.h	222;"	d
+COORD_WAFER_ID_ECC	common_flash.c	/^int COORD_WAFER_ID_ECC[DDUTCNT]={0};$/;"	v
+COX_ADDR	flash_info.h	199;"	d
+COX_CBD2	common_flash.c	/^int COX_CBD2[DDUTCNT][FLASH_NUM]={0xffffffff};$/;"	v
+COX_CBD3	common_flash.c	/^int COX_CBD3[DDUTCNT][FLASH_NUM]={0xffffffff};$/;"	v
+COX_Judge	flash_info.h	108;"	d
+COX_TestMode	flash_info.h	103;"	d
+COX_Trim_Target	flash_info.h	133;"	d
+COX_Trim_error	flash_info.h	134;"	d
+COX_mid_position	flash_info.h	115;"	d
+COX_trim	common_flash.c	/^int COX_trim[DDUTCNT][FLASH_NUM]={0};$/;"	v
+CP1_ID_ADDR	flash_info.h	197;"	d
+CP1_ID_DATA	flash_info.h	223;"	d
+CP1_ID_DATA_ECC	common_flash.c	/^int CP1_ID_DATA_ECC=0;$/;"	v
+CP1_ID_DATA_REPAIR	flash_info.h	224;"	d
+CP2_ID_ADDR	flash_info.h	201;"	d
+CP2_ID_DATA	flash_info.h	225;"	d
+CP2_ID_DATA_ECC	common_flash.c	/^int CP2_ID_DATA_ECC=0;$/;"	v
+CP2_RETEST_ID_ADDR	flash_info.h	202;"	d
+CP2_RETEST_ID_DATA	flash_info.h	226;"	d
+CP2_RETEST_ID_DATA_ECC	common_flash.c	/^int CP2_RETEST_ID_DATA_ECC=0;$/;"	v
+CP3_ID_ADDR	flash_info.h	203;"	d
+CP3_ID_DATA	flash_info.h	227;"	d
+CP3_ID_DATA_ECC	common_flash.c	/^int CP3_ID_DATA_ECC=0;$/;"	v
+CP3_RETEST_ID_ADDR	flash_info.h	204;"	d
+CP3_RETEST_ID_DATA	flash_info.h	228;"	d
+CP3_RETEST_ID_DATA_ECC	common_flash.c	/^int CP3_RETEST_ID_DATA_ECC=0;$/;"	v
+CalcEcc	tb_soc_func.c	/^unsigned short CalcEcc(unsigned int address, unsigned int data_H, unsigned int data_L)			$/;"	f
+CalculateECC	tb_soc_func.c	/^int CalculateECC(unsigned int hb32, unsigned int lb32)$/;"	f
+Caltrimvalue	common_flash.c	/^void Caltrimvalue(char *trimlabel,double trim_result[][DDUTCNT],int trim[],unsigned int *trim_value, double target,int trimcount)$/;"	f
+Caltrimvalue2	tb_soc_func.c	/^void Caltrimvalue2(char *trimlabel,double trim_result[][DDUTCNT],int trim[], double target,int trimcount)$/;"	f
+ClearPdsMemory	pdsmemory.c	/^void ClearPdsMemory()$/;"	f
+Column_fail_sec_num	common_flash.c	/^int Column_fail_sec_num[DDUTCNT][FLASH_NUM];$/;"	v
+Column_fail_sec_reg	common_flash.c	/^int Column_fail_sec_reg[DDUTCNT][FLASH_NUM][3];$/;"	v
+ConfigCFM_Sector	common_flash.c	/^void ConfigCFM_Sector()$/;"	f
+ConvertCharToInt	common.c	/^int ConvertCharToInt(char *lotnumber, int index)$/;"	f
+D0	common.h	275;"	d
+D1	common.h	276;"	d
+D10	common.h	285;"	d
+D11	common.h	286;"	d
+D12	common.h	287;"	d
+D13	common.h	288;"	d
+D14	common.h	289;"	d
+D15	common.h	290;"	d
+D16	common.h	291;"	d
+D17	common.h	292;"	d
+D18	common.h	293;"	d
+D19	common.h	294;"	d
+D2	common.h	277;"	d
+D20	common.h	295;"	d
+D21	common.h	296;"	d
+D22	common.h	297;"	d
+D23	common.h	298;"	d
+D24	common.h	299;"	d
+D25	common.h	300;"	d
+D26	common.h	301;"	d
+D27	common.h	302;"	d
+D28	common.h	303;"	d
+D29	common.h	304;"	d
+D3	common.h	278;"	d
+D30	common.h	305;"	d
+D31	common.h	306;"	d
+D4	common.h	279;"	d
+D5	common.h	280;"	d
+D6	common.h	281;"	d
+D7	common.h	282;"	d
+D8	common.h	283;"	d
+D9	common.h	284;"	d
+DATA1	tb_flash_func.c	/^unsigned int DATA3[0xff][DDUTCNT][FLASH_NUM],DATA2[0xff][DDUTCNT][FLASH_NUM],DATA1[0xff][DDUTCNT][FLASH_NUM];$/;"	v
+DATA2	tb_flash_func.c	/^unsigned int DATA3[0xff][DDUTCNT][FLASH_NUM],DATA2[0xff][DDUTCNT][FLASH_NUM],DATA1[0xff][DDUTCNT][FLASH_NUM];$/;"	v
+DATA3	tb_flash_func.c	/^unsigned int DATA3[0xff][DDUTCNT][FLASH_NUM],DATA2[0xff][DDUTCNT][FLASH_NUM],DATA1[0xff][DDUTCNT][FLASH_NUM];$/;"	v
+DATA_BITSIZE	flash_info.h	235;"	d
+DATA_BITSIZE	flash_info.h	256;"	d
+DATA_BITSIZE	flash_info.h	283;"	d
+DATA_BITSIZE	flash_info.h	303;"	d
+DATA_NUM	flash_info.h	27;"	d
+DDUTCNT	flash_info.h	23;"	d
+DISABLE_DcGuard_ALARM	common.h	512;"	d
+DISABLE_KELVIN_ALARM	common.h	500;"	d
+DISABLE_PpsGuard_ALARM	common.h	524;"	d
+DPROG_ADDR_1_FLASH12	flash_info.h	157;"	d
+DPROG_ADDR_1_FLASH3	flash_info.h	159;"	d
+DPROG_ADDR_2_FLASH12	flash_info.h	158;"	d
+DPROG_ADDR_2_FLASH3	flash_info.h	160;"	d
+DPROG_DATA_1_H	flash_info.h	161;"	d
+DPROG_DATA_1_L	flash_info.h	162;"	d
+DPROG_DATA_2_H	flash_info.h	163;"	d
+DPROG_DATA_2_L	flash_info.h	164;"	d
+DbmLoad	dbmlod.c	/^int DbmLoad()$/;"	f
+DcExec	common.c	/^void DcExec(char* pinname)$/;"	f
+DcISVM	libModeChange.c	/^static	void	DcISVM( DcHandle h) {$/;"	f	file:
+DcVSIM	libModeChange.c	/^static	void	DcVSIM( DcHandle h) {$/;"	f	file:
+DebugPrintf	common.c	/^void DebugPrintf(char *fmt, ...)$/;"	f
+DefinePinList	soc_pinlist.c	/^void DefinePinList(){$/;"	f
+DeviceName	common.c	/^char *DeviceName = {'\\0'};$/;"	v
+Dummy	common.c	/^void Dummy(){}$/;"	f
+ENABLE_DcGuard_ALARM	common.h	518;"	d
+ENABLE_KELVIN_ALARM	common.h	506;"	d
+ENABLE_PpsGuard_ALARM	common.h	530;"	d
+ENDU_ADDR	flash_info.h	200;"	d
+ENDU_CBD4	common_flash.c	/^int ENDU_CBD4[DDUTCNT][FLASH_NUM]={0xffffffff};$/;"	v
+ENDU_CBD5	common_flash.c	/^int ENDU_CBD5[DDUTCNT][FLASH_NUM]={0xffffffff};$/;"	v
+ENDU_Judge	flash_info.h	107;"	d
+ENDU_TestMode	flash_info.h	102;"	d
+ENDU_Trim_Target	flash_info.h	126;"	d
+ENDU_Trim_error	flash_info.h	127;"	d
+ENDU_mid_position	flash_info.h	113;"	d
+ENDU_trim	common_flash.c	/^int ENDU_trim[DDUTCNT][FLASH_NUM]={0};$/;"	v
+END_DUT_LOOP	common.h	543;"	d
+END_DUT_LOOP_EFA	tb_efa_func.h	62;"	d
+END_FLASH_LOOP	common.h	449;"	d
+END_FLASH_LOOP_BY_PINLIST	common.h	465;"	d
+END_GROUP_TEST_BY_VPP	common.h	646;"	d
+END_GROUP_TEST_BY_VS	common.h	584;"	d
+END_PINLIST_LOOP	common.h	479;"	d
+FAIL	common.h	148;"	d
+FALSE	common.h	152;"	d
+FCM_READ_DATA_BITSIZE	tb_flash_func.c	/^int FCM_READ_DATA_BITSIZE=DATA_BITSIZE;$/;"	v
+FH	common.h	340;"	d
+FK	common.c	/^int FK[20];$/;"	v
+FL	common.h	339;"	d
+FLASH40_16K_72	flash_info.h	29;"	d
+FLASH_NO_12	flash_info.h	165;"	d
+FLASH_NO_3	flash_info.h	166;"	d
+FLASH_NUM	flash_info.h	26;"	d
+FOLLOW_CUSTOMER_RULE	flash_info.h	43;"	d
+FP0	common.h	168;"	d
+FP1	common.h	169;"	d
+FP10	common.h	177;"	d
+FP3	common.h	170;"	d
+FP4	common.h	171;"	d
+FP5	common.h	172;"	d
+FP6	common.h	173;"	d
+FP7	common.h	174;"	d
+FP8	common.h	175;"	d
+FP9	common.h	176;"	d
+FP_DISABLE	common.h	167;"	d
+FirstRun	common.c	/^int FirstRun=1;$/;"	v
+FlashPatExec	common_flash.c	/^void FlashPatExec(char* patfile, char* startlabel){$/;"	f
+FlashPatExec_NoWait	common_flash.c	/^void FlashPatExec_NoWait(char* patfile, char* startlabel){$/;"	f
+FlashPatStart	common_flash.c	/^void FlashPatStart(char* patfile, char* startlabel){$/;"	f
+Flash_TM0	common_flash.c	/^char Flash_TM0[][10]={"EF0_TM0","EF1_TM0","EF2_TM0"};$/;"	v
+FlowPreProcess	common.c	/^void FlowPreProcess(char * label)$/;"	f
+Flow_CP1	flow_cp.c	/^void Flow_CP1(){$/;"	f
+Flow_CP2	flow_cp.c	/^void Flow_CP2(){$/;"	f
+Flow_CP3	flow_cp.c	/^void Flow_CP3(){$/;"	f
+Flow_DEBUG	flow_debug.c	/^void Flow_DEBUG(){$/;"	f
+Flow_EFA	flow_efa.c	/^void Flow_EFA(){$/;"	f
+Flow_OS	flow_cp.c	/^void Flow_OS(){$/;"	f
+GOX_ADDR	flash_info.h	198;"	d
+GOX_CBD4	common_flash.c	/^int GOX_CBD4[DDUTCNT][FLASH_NUM]={0xffffffff};$/;"	v
+GOX_CBD5	common_flash.c	/^int GOX_CBD5[DDUTCNT][FLASH_NUM]={0xffffffff};$/;"	v
+GOX_Judge	flash_info.h	106;"	d
+GOX_TestMode	flash_info.h	101;"	d
+GOX_Trim_Target	flash_info.h	124;"	d
+GOX_Trim_error	flash_info.h	125;"	d
+GOX_mid_position	flash_info.h	112;"	d
+GOX_trim	common_flash.c	/^int GOX_trim[DDUTCNT][FLASH_NUM]={0};$/;"	v
+GetActiveDut	common.c	/^int GetActiveDut(long long int *active_dut){$/;"	f
+GetFinalResult	common.c	/^int GetFinalResult(int dut)$/;"	f
+HVVSIM_Measure_Voltage_ByFlash	common_flash.c	/^void HVVSIM_Measure_Voltage_ByFlash(char* item, char*pin,int VSNO, double target,double value[][FLASH_NUM],double vpp_leakage_offset[][FLASH_NUM],int flash_no)$/;"	f
+HV_INTERNAL	flash_info.h	94;"	d
+HV_MVM_Triming_Binary	common_flash.c	/^void HV_MVM_Triming_Binary(int testmode)$/;"	f
+HV_TRIM_SCAN	flash_info.h	93;"	d
+HV_VSIM_Triming_Binary	common_flash.c	/^void HV_VSIM_Triming_Binary(int testmode)$/;"	f
+HV_internal_set	common_flash.c	/^void HV_internal_set(int testmode)$/;"	f
+HV_trimcount	flash_info.h	140;"	d
+IP0_NVR_CUSTOMER_SOC_ADDR	flash_info.h	44;"	d
+IP1_NVR_CUSTOMER_SOC_ADDR	flash_info.h	45;"	d
+InitialCpDieId	common_flash.c	/^void InitialCpDieId(unsigned  int *XYh32, unsigned  int *XYl32,unsigned int *idh32,unsigned int *idl32)$/;"	f
+InitialCpDieId_jx2	common_flash.c	/^void InitialCpDieId_jx2(unsigned  int *LOTID_h32, unsigned  int *LOTID_l32,unsigned  int *WaferID_h32,unsigned int *WaferID_l32)$/;"	f
+InitialVariable	common.c	/^void InitialVariable()$/;"	f
+Int2ByteArray	tb_soc_func.c	/^void Int2ByteArray(int IntValue, unsigned char *bytes)$/;"	f
+InternalError	libModeChange.c	/^static	void	InternalError( const char *file, int line, const char *func) {$/;"	f	file:
+JTAG_SEQ	flash_info.h	25;"	d
+LOTID_ECC	common_flash.c	/^unsigned short  LOTID_ECC[DDUTCNT]={0};$/;"	v
+LOTID_h32	common_flash.c	/^unsigned int LOTID_h32[DDUTCNT]={0};$/;"	v
+LOTID_h32_nc_reload	common_flash.c	/^unsigned int LOTID_h32_nc_reload[DDUTCNT]={0};$/;"	v
+LOTID_l32	common_flash.c	/^unsigned int LOTID_l32[DDUTCNT]={0};$/;"	v
+LOTID_l32_nc_reload	common_flash.c	/^unsigned int LOTID_l32_nc_reload[DDUTCNT]={0};$/;"	v
+LOWBITinPATUP	common.h	146;"	d
+LogicPatExec	common_flash.c	/^void LogicPatExec(char *patfile)$/;"	f
+LotNumber	common.c	/^char *LotNumber = {'\\0'};$/;"	v
+M1200mA	common.h	/^enum ePPS_MRNG { M40uA, M400uA, M4mA, M40mA, M400mA,M1200mA, M8A };$/;"	e	enum:ePPS_MRNG
+M128mA	common.h	/^enum eVPP_MRNG { M8uA, M80uA, M800uA, M8mA, M128mA,M8V, Mm8V, M32V, Mm32V };$/;"	e	enum:eVPP_MRNG
+M32V	common.h	/^enum eVPP_MRNG { M8uA, M80uA, M800uA, M8mA, M128mA,M8V, Mm8V, M32V, Mm32V };$/;"	e	enum:eVPP_MRNG
+M400mA	common.h	/^enum ePPS_MRNG { M40uA, M400uA, M4mA, M40mA, M400mA,M1200mA, M8A };$/;"	e	enum:ePPS_MRNG
+M400uA	common.h	/^enum ePPS_MRNG { M40uA, M400uA, M4mA, M40mA, M400mA,M1200mA, M8A };$/;"	e	enum:ePPS_MRNG
+M40mA	common.h	/^enum ePPS_MRNG { M40uA, M400uA, M4mA, M40mA, M400mA,M1200mA, M8A };$/;"	e	enum:ePPS_MRNG
+M40uA	common.h	/^enum ePPS_MRNG { M40uA, M400uA, M4mA, M40mA, M400mA,M1200mA, M8A };$/;"	e	enum:ePPS_MRNG
+M4mA	common.h	/^enum ePPS_MRNG { M40uA, M400uA, M4mA, M40mA, M400mA,M1200mA, M8A };$/;"	e	enum:ePPS_MRNG
+M800uA	common.h	/^enum eVPP_MRNG { M8uA, M80uA, M800uA, M8mA, M128mA,M8V, Mm8V, M32V, Mm32V };$/;"	e	enum:eVPP_MRNG
+M80uA	common.h	/^enum eVPP_MRNG { M8uA, M80uA, M800uA, M8mA, M128mA,M8V, Mm8V, M32V, Mm32V };$/;"	e	enum:eVPP_MRNG
+M8A	common.h	/^enum ePPS_MRNG { M40uA, M400uA, M4mA, M40mA, M400mA,M1200mA, M8A };$/;"	e	enum:ePPS_MRNG
+M8V	common.h	/^enum eVPP_MRNG { M8uA, M80uA, M800uA, M8mA, M128mA,M8V, Mm8V, M32V, Mm32V };$/;"	e	enum:eVPP_MRNG
+M8mA	common.h	/^enum eVPP_MRNG { M8uA, M80uA, M800uA, M8mA, M128mA,M8V, Mm8V, M32V, Mm32V };$/;"	e	enum:eVPP_MRNG
+M8uA	common.h	/^enum eVPP_MRNG { M8uA, M80uA, M800uA, M8mA, M128mA,M8V, Mm8V, M32V, Mm32V };$/;"	e	enum:eVPP_MRNG
+MA	common.h	156;"	d
+MARG0_TRIM_ADDR	flash_info.h	173;"	d
+MARG0_TRIM_SHIFT	flash_info.h	177;"	d
+MARG1_TRIM_ADDR	flash_info.h	172;"	d
+MARG1_TRIM_SHIFT	flash_info.h	176;"	d
+MAX_LINE_LENGTH	tb_efa_func.c	10;"	d	file:
+MAX_PATH	tb_efa_func.c	11;"	d	file:
+MRG0_trim	common_flash.c	/^int MRG0_trim[DDUTCNT][FLASH_NUM]={0};$/;"	v
+MRG1_trim	common_flash.c	/^int MRG1_trim[DDUTCNT][FLASH_NUM]={0};$/;"	v
+MS	common.h	164;"	d
+MV	common.h	159;"	d
+MVM_OHM_FACTOR	flash_info.h	96;"	d
+M_ROW_NUM	flash_info.h	247;"	d
+M_ROW_NUM	flash_info.h	269;"	d
+M_ROW_NUM	flash_info.h	295;"	d
+M_ROW_NUM	flash_info.h	315;"	d
+M_SECT_NUM	flash_info.h	246;"	d
+M_SECT_NUM	flash_info.h	268;"	d
+M_SECT_NUM	flash_info.h	294;"	d
+M_SECT_NUM	flash_info.h	314;"	d
+Meas_read_trim	common_flash.c	/^void Meas_read_trim(int flag[][DDUTCNT][FLASH_NUM],int trim[][FLASH_NUM])$/;"	f
+Mm32V	common.h	/^enum eVPP_MRNG { M8uA, M80uA, M800uA, M8mA, M128mA,M8V, Mm8V, M32V, Mm32V };$/;"	e	enum:eVPP_MRNG
+Mm8V	common.h	/^enum eVPP_MRNG { M8uA, M80uA, M800uA, M8mA, M128mA,M8V, Mm8V, M32V, Mm32V };$/;"	e	enum:eVPP_MRNG
+NA	common.h	154;"	d
+NC_Addr_Num	flash_info.h	9;"	d
+NC_Addr_Num	tb_flash_func.h	186;"	d
+NC_ECC_FLAG	flash_info.h	42;"	d
+NORM_TRIM_ADDR	flash_info.h	171;"	d
+NORM_TRIM_SHIFT	flash_info.h	175;"	d
+NOTTEST	common.h	149;"	d
+NS	common.h	162;"	d
+NVR_Addr_Num_FLASH	flash_info.h	48;"	d
+NVR_Addr_Num_FLASH0	flash_info.h	49;"	d
+NVR_Addr_Num_FLASH1	flash_info.h	50;"	d
+NVR_Addr_Num_FLASH2	flash_info.h	51;"	d
+NVR_Addr_Num_FLASH3	flash_info.h	52;"	d
+NVR_CFG_ADDR_For_Customer_CP1	flash_info.h	8;"	d
+NVR_CFG_ADDR_For_Customer_CP1	tb_flash_func.h	185;"	d
+NVR_CFG_BYFLASH_CP1	tb_flash_func.c	/^int NVR_CFG_BYFLASH_CP1[DDUTCNT][NC_Addr_Num][FLASH_NUM]={0};$/;"	v
+NVR_FLASH_ADDR	flash_info.c	/^int NVR_FLASH_ADDR[261][4]={{0x0,0x0,0x0,0x0},  \/\/0$/;"	v
+NVR_FLASH_ADDR_FINAL_VCODE	flash_info.c	/^int NVR_FLASH_ADDR_FINAL_VCODE[4]={0x100,0x100,0x100,0x100};$/;"	v
+NVR_FLASH_ADDR_ITERATE_VCODE_H8	flash_info.c	/^int NVR_FLASH_ADDR_ITERATE_VCODE_H8[4]={0x102,0x102,0x102,0x102};$/;"	v
+NVR_FLASH_ADDR_ITERATE_VCODE_L8	flash_info.c	/^int NVR_FLASH_ADDR_ITERATE_VCODE_L8[4]={0x101,0x101,0x101,0x101};$/;"	v
+NVR_FLASH_ADDR_LOT_COORD	flash_info.c	/^int NVR_FLASH_ADDR_LOT_COORD[4]={0x1D,0x1D,0x1D,0x1D};$/;"	v
+N_SECT_HIGH_ADDR_16K	flash_info.h	274;"	d
+N_SECT_HIGH_ADDR_16K	flash_info.h	319;"	d
+N_SECT_HIGH_ADDR_64K	flash_info.h	275;"	d
+N_SECT_HIGH_ADDR_64K	flash_info.h	320;"	d
+N_SECT_HIGH_ADDR_ALL	flash_info.h	277;"	d
+N_SECT_HIGH_ADDR_ALL	flash_info.h	322;"	d
+N_SECT_NUM	flash_info.h	248;"	d
+N_SECT_NUM	flash_info.h	270;"	d
+N_SECT_NUM	flash_info.h	296;"	d
+N_SECT_NUM	flash_info.h	316;"	d
+ONE_ADDR	flash_info.h	12;"	d
+OP_RATE	flash_info.h	86;"	d
+P	common.h	342;"	d
+PASS	common.h	147;"	d
+PDSA	common.h	408;"	d
+PDSB	common.h	415;"	d
+PDSD	common.h	422;"	d
+PIN_	common.c	/^PinHandle PIN_;$/;"	v
+PIN_STRUCT	common.h	/^} PIN_STRUCT;$/;"	t	typeref:struct:__anon1
+PROBER_LOT_ID	common.h	42;"	d
+PROG_DATA_BITSIZE	flash_info.h	238;"	d
+PROG_DATA_BITSIZE	flash_info.h	259;"	d
+PROG_DATA_BITSIZE	flash_info.h	286;"	d
+PROG_DATA_BITSIZE	flash_info.h	306;"	d
+PROG_WORD_SHIFT_ADDR	flash_info.h	236;"	d
+PROG_WORD_SHIFT_ADDR	flash_info.h	257;"	d
+PROG_WORD_SHIFT_ADDR	flash_info.h	284;"	d
+PROG_WORD_SHIFT_ADDR	flash_info.h	304;"	d
+P_BCLK	common.h	375;"	d
+P_C	common.h	429;"	d
+P_CCLK	common.h	376;"	d
+P_CPEDLY	common.h	401;"	d
+P_D	common.h	431;"	d
+P_DNRZ	common.h	369;"	d
+P_DRDLY	common.h	399;"	d
+P_DRE	common.h	404;"	d
+P_DRECLK	common.h	403;"	d
+P_DREDLY	common.h	400;"	d
+P_DREDNRZ	common.h	407;"	d
+P_DRENRZ	common.h	405;"	d
+P_DRERZ	common.h	406;"	d
+P_EINV	common.h	379;"	d
+P_EINVSTRB	common.h	380;"	d
+P_EXPA	common.h	393;"	d
+P_EXPB	common.h	394;"	d
+P_EXPDLY	common.h	402;"	d
+P_EXP_CH1_FH	common.h	396;"	d
+P_EXP_CH1_FL	common.h	395;"	d
+P_EXP_CH2_FH	common.h	398;"	d
+P_EXP_CH2_FL	common.h	397;"	d
+P_FH	common.h	437;"	d
+P_FIXH	common.h	354;"	d
+P_FIXL	common.h	353;"	d
+P_FL	common.h	438;"	d
+P_HINIT	common.h	373;"	d
+P_IDNRZ	common.h	370;"	d
+P_IL	common.h	391;"	d
+P_IN	common.h	387;"	d
+P_INH	common.h	385;"	d
+P_INRZB	common.h	356;"	d
+P_INRZC	common.h	358;"	d
+P_IOC	common.h	386;"	d
+P_IRZO	common.h	360;"	d
+P_IRZX	common.h	364;"	d
+P_IRZZ	common.h	362;"	d
+P_IXOR	common.h	366;"	d
+P_IXORBC	common.h	368;"	d
+P_I_C	common.h	430;"	d
+P_I_D	common.h	433;"	d
+P_I_SD	common.h	434;"	d
+P_LINIT	common.h	374;"	d
+P_MATCH	common.h	381;"	d
+P_MATCHGROUP	common.h	382;"	d
+P_MPG_SEL1	common.h	383;"	d
+P_MPG_SEL2	common.h	384;"	d
+P_NRZB	common.h	355;"	d
+P_NRZC	common.h	357;"	d
+P_OPEN	common.h	371;"	d
+P_OUT	common.h	388;"	d
+P_OUTL	common.h	389;"	d
+P_PART	common.h	350;"	d
+P_PPAT	common.h	351;"	d
+P_PPAT_IOCTRL	common.h	352;"	d
+P_PSM	common.h	377;"	d
+P_RD	common.h	440;"	d
+P_RDSM	common.h	378;"	d
+P_RZO	common.h	359;"	d
+P_RZX	common.h	363;"	d
+P_RZZ	common.h	361;"	d
+P_SD	common.h	432;"	d
+P_STRB	common.h	392;"	d
+P_VSOPEN	common.h	372;"	d
+P_VT	common.h	390;"	d
+P_WT	common.h	439;"	d
+P_X	common.h	435;"	d
+P_XOR	common.h	365;"	d
+P_XORBC	common.h	367;"	d
+P_Y	common.h	436;"	d
+Pause	common.c	/^void Pause(char *fmt, ...)$/;"	f
+Pause2	common.c	/^void Pause2(char *fmt, ...)$/;"	f
+PowerOff	soc_level.c	/^void PowerOff(){$/;"	f
+PowerOn	soc_level.c	/^void PowerOn(){$/;"	f
+ProberID	common.c	/^char *ProberID = {'\\0'};$/;"	v
+R0_ADDR	flash_info.h	191;"	d
+R16V	common.h	/^enum ePPS_SRNG { R2V, R3V, R4V, R16V };$/;"	e	enum:ePPS_SRNG
+R1_ADDR	flash_info.h	192;"	d
+R200uA	common.h	/^enum eDC_IRNG { R5uA, R20uA, R200uA, R2mA, R20mA, Rm20mA };$/;"	e	enum:eDC_IRNG
+R20V	common.h	/^enum eDC_VRNG { R20V, R5V, Rm20V };$/;"	e	enum:eDC_VRNG
+R20mA	common.h	/^enum eDC_IRNG { R5uA, R20uA, R200uA, R2mA, R20mA, Rm20mA };$/;"	e	enum:eDC_IRNG
+R20uA	common.h	/^enum eDC_IRNG { R5uA, R20uA, R200uA, R2mA, R20mA, Rm20mA };$/;"	e	enum:eDC_IRNG
+R2V	common.h	/^enum ePPS_SRNG { R2V, R3V, R4V, R16V };$/;"	e	enum:ePPS_SRNG
+R2mA	common.h	/^enum eDC_IRNG { R5uA, R20uA, R200uA, R2mA, R20mA, Rm20mA };$/;"	e	enum:eDC_IRNG
+R32V	common.h	/^enum eVPP_SRNG { R8V, R32V };$/;"	e	enum:eVPP_SRNG
+R3V	common.h	/^enum ePPS_SRNG { R2V, R3V, R4V, R16V };$/;"	e	enum:ePPS_SRNG
+R4V	common.h	/^enum ePPS_SRNG { R2V, R3V, R4V, R16V };$/;"	e	enum:ePPS_SRNG
+R5V	common.h	/^enum eDC_VRNG { R20V, R5V, Rm20V };$/;"	e	enum:eDC_VRNG
+R5uA	common.h	/^enum eDC_IRNG { R5uA, R20uA, R200uA, R2mA, R20mA, Rm20mA };$/;"	e	enum:eDC_IRNG
+R8V	common.h	/^enum eVPP_SRNG { R8V, R32V };$/;"	e	enum:eVPP_SRNG
+READ_DATA_BITSIZE	flash_info.h	239;"	d
+READ_DATA_BITSIZE	flash_info.h	260;"	d
+READ_DATA_BITSIZE	flash_info.h	287;"	d
+READ_DATA_BITSIZE	flash_info.h	307;"	d
+READ_WORD_SHIFT_ADDR	flash_info.h	237;"	d
+READ_WORD_SHIFT_ADDR	flash_info.h	258;"	d
+READ_WORD_SHIFT_ADDR	flash_info.h	285;"	d
+READ_WORD_SHIFT_ADDR	flash_info.h	305;"	d
+REF_trim	common_flash.c	/^int REF_trim[DDUTCNT][FLASH_NUM]={0};$/;"	v
+REF_trim_value	flash_info.c	/^unsigned int REF_trim_value[32]={16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};$/;"	v
+REF_trimcount	flash_info.h	14;"	d
+REPAIR_FLAG_ADDR	flash_info.h	190;"	d
+REPAIR_MASK_H	flash_info.h	195;"	d
+REPAIR_MASK_L	flash_info.h	194;"	d
+ROW_01_ADDR	flash_info.h	10;"	d
+ROW_ADDR	flash_info.h	11;"	d
+ROW_SHIFT_ADDR	flash_info.h	241;"	d
+ROW_SHIFT_ADDR	flash_info.h	262;"	d
+ROW_SHIFT_ADDR	flash_info.h	289;"	d
+ROW_SHIFT_ADDR	flash_info.h	309;"	d
+ROW_SHIFT_BIT	flash_info.h	242;"	d
+ROW_SHIFT_BIT	flash_info.h	263;"	d
+ROW_SHIFT_BIT	flash_info.h	290;"	d
+ROW_SHIFT_BIT	flash_info.h	310;"	d
+RUN_TEST	common.c	/^void RUN_TEST(char * label, void (*func)(), char *tname, void (*pre_exec)(), void (*post_exec)(), char *pass_branch, char * fail_branch ,  int bin)$/;"	f
+R_SECT_NUM	flash_info.h	249;"	d
+R_SECT_NUM	flash_info.h	271;"	d
+R_SECT_NUM	flash_info.h	297;"	d
+R_SECT_NUM	flash_info.h	317;"	d
+ReadCFM_Sector	common_flash.c	/^void ReadCFM_Sector()$/;"	f
+ReadFk	common.c	/^int ReadFk(int *array)$/;"	f
+ReadFlash	common_flash.c	/^void ReadFlash(int area, int startaddr, int endaddr, int stepaddr,int addr_mask,unsigned int DATA3[][DDUTCNT][FLASH_NUM],unsigned int DATA2[][DDUTCNT][FLASH_NUM],unsigned int DATA1[][DDUTCNT][FLASH_NUM],char *patname)$/;"	f
+ReadFlash	tb_soc_func.c	/^void  ReadFlash(unsigned int AREA,unsigned int addr)$/;"	f
+ReadFlashNC	tb_soc_func.c	/^void ReadFlashNC(int area, int startaddr, int endaddr, int stepaddr,int addr_mask,unsigned int DATA3[][DDUTCNT][FLASH_NUM],unsigned int DATA2[][DDUTCNT][FLASH_NUM],unsigned int DATA1[][DDUTCNT][FLASH_NUM],char *patname)$/;"	f
+ReadFlash_SaveFile	tb_flash_func.c	/^void ReadFlash_SaveFile(char* identifier, int area, int startaddr, int endaddr, int stepaddr)$/;"	f
+ReadMeasData	common.c	/^int ReadMeasData(char *pinlist, double unit,double *data,int dut)$/;"	f
+ReadMeasData_ByFlash	common.c	/^int ReadMeasData_ByFlash(char *pinlist, double unit,double data[DDUTCNT][FLASH_NUM],int dut,int flash_no)$/;"	f
+ReadNCFlash	tb_flash_func.c	/^void  ReadNCFlash(unsigned int addr)$/;"	f
+ReadReg_Print	tb_flash_func.c	/^void ReadReg_Print()$/;"	f
+ReadReg_STB_BFAIL_REG	common_flash.c	/^void ReadReg_STB_BFAIL_REG(int select_STB_or_BFAIL)$/;"	f
+Read_Meas_Result	common.c	/^void Read_Meas_Result(char *pinlist, char *test_item, double hlimit, double llimit, double unit, char* unitstr)	$/;"	f
+Read_Meas_Result2	common.c	/^void Read_Meas_Result2(char *pinlist, char *test_item, double hlimit, double llimit, double unit, char* unitstr)$/;"	f
+Read_NVRCFG	tb_flash_func.c	/^void Read_NVRCFG(int area, int startaddr, int endaddr, int stepaddr,int addr_mask,unsigned int DATA3[][DDUTCNT][FLASH_NUM],unsigned int DATA2[][DDUTCNT][FLASH_NUM],unsigned int DATA1[][DDUTCNT][FLASH_NUM],char *patname)$/;"	f
+Read_triming	common_flash.c	/^void Read_triming(int addr, int shift, int trim[][FLASH_NUM], char *patname)$/;"	f
+RelayOffVs_ForceWet	libModeChange.c	/^extern	void RelayOffVs_ForceWet( long vsno) {$/;"	f
+RelayOnVs_ForceWet	libModeChange.c	/^extern	void RelayOnVs_ForceWet( long vsno) {$/;"	f
+ReturnActiveDut	common.c	/^int ReturnActiveDut(long long int active_dut){$/;"	f
+Rm20V	common.h	/^enum eDC_VRNG { R20V, R5V, Rm20V };$/;"	e	enum:eDC_VRNG
+Rm20mA	common.h	/^enum eDC_IRNG { R5uA, R20uA, R200uA, R2mA, R20mA, Rm20mA };$/;"	e	enum:eDC_IRNG
+S	common.h	165;"	d
+SD0	common.h	307;"	d
+SD1	common.h	308;"	d
+SD10	common.h	317;"	d
+SD11	common.h	318;"	d
+SD12	common.h	319;"	d
+SD13	common.h	320;"	d
+SD14	common.h	321;"	d
+SD15	common.h	322;"	d
+SD16	common.h	323;"	d
+SD17	common.h	324;"	d
+SD18	common.h	325;"	d
+SD19	common.h	326;"	d
+SD2	common.h	309;"	d
+SD20	common.h	327;"	d
+SD21	common.h	328;"	d
+SD22	common.h	329;"	d
+SD23	common.h	330;"	d
+SD24	common.h	331;"	d
+SD25	common.h	332;"	d
+SD26	common.h	333;"	d
+SD27	common.h	334;"	d
+SD28	common.h	335;"	d
+SD29	common.h	336;"	d
+SD3	common.h	310;"	d
+SD30	common.h	337;"	d
+SD31	common.h	338;"	d
+SD4	common.h	311;"	d
+SD5	common.h	312;"	d
+SD6	common.h	313;"	d
+SD7	common.h	314;"	d
+SD8	common.h	315;"	d
+SD9	common.h	316;"	d
+SECT_ADDR_BIT	flash_info.h	266;"	d
+SECT_SHIFT_ADDR	flash_info.h	243;"	d
+SECT_SHIFT_ADDR	flash_info.h	264;"	d
+SECT_SHIFT_ADDR	flash_info.h	291;"	d
+SECT_SHIFT_ADDR	flash_info.h	311;"	d
+SECT_SHIFT_BIT	flash_info.h	244;"	d
+SECT_SHIFT_BIT	flash_info.h	265;"	d
+SECT_SHIFT_BIT	flash_info.h	292;"	d
+SECT_SHIFT_BIT	flash_info.h	312;"	d
+SOC_LEVEL_H	soc_level.h	2;"	d
+START_DUT_LOOP	common.h	535;"	d
+START_DUT_LOOP_EFA	tb_efa_func.h	36;"	d
+START_FLASH_LOOP	common.h	442;"	d
+START_FLASH_LOOP_BY_PINLIST	common.h	453;"	d
+START_GROUP_TEST_BY_VPP	common.h	604;"	d
+START_GROUP_TEST_BY_VS	common.h	549;"	d
+START_PINLIST_LOOP	common.h	471;"	d
+SendDc_ForceWet	libModeChange.c	/^extern	void SendDc_ForceWet( DcHandle h) {$/;"	f
+SendVs_ForceWet	libModeChange.c	/^extern	void SendVs_ForceWet( VsHandle h, long vsno) {$/;"	f
+SetAllPin2OneLevel	common.c	/^void SetAllPin2OneLevel(char *pinlist, float value)$/;"	f
+SetDBMPinfmt	soc_pinfmt.c	/^void SetDBMPinfmt(){$/;"	f
+SetDBMTiming	soc_timing.c	/^void SetDBMTiming()$/;"	f
+SetFinalResultOnly	common.c	/^int SetFinalResultOnly(int dut, int result)$/;"	f
+SetLevel0V	soc_level.c	/^void SetLevel0V(){$/;"	f
+SetLevelHigh	soc_level.c	/^void SetLevelHigh(){$/;"	f
+SetLevelHigh_1P2MAX	soc_level.c	/^void SetLevelHigh_1P2MAX(){$/;"	f
+SetLevelHigh_SOC	soc_level.c	/^void SetLevelHigh_SOC(){$/;"	f
+SetLevelLow	soc_level.c	/^void SetLevelLow(){$/;"	f
+SetLevelLow_SOC	soc_level.c	/^void SetLevelLow_SOC(){$/;"	f
+SetLevelNorm	soc_level.c	/^void SetLevelNorm(){$/;"	f
+SetLevelNorm_SOC	soc_level.c	/^void SetLevelNorm_SOC(){$/;"	f
+SetPdsMemory	pdsmemory.c	/^void SetPdsMemory()	$/;"	f
+SetPinOpen	soc_pinfmt.c	/^void SetPinOpen(){$/;"	f
+SetPinfmt	soc_pinfmt.c	/^void SetPinfmt(){$/;"	f
+SetPinfmt_Open	soc_pinfmt.c	/^void SetPinfmt_Open(){$/;"	f
+SetPowerSeq	soc_level.c	/^void SetPowerSeq()$/;"	f
+SetTiming	timing.c	/^void SetTiming()$/;"	f
+Setup_Dbm	dbm.c	/^int Setup_Dbm( char *patName, int dbm_bitmode, unsigned int *dbm_data, int depth, int sta)$/;"	f
+TRUE	common.h	151;"	d
+TestEndLog	common.c	/^void TestEndLog()$/;"	f
+TestStartLog	common.c	/^void TestStartLog()$/;"	f
+TransMeasData	common.c	/^void TransMeasData(char *pinlist, char *test_item, double hlimit, double llimit, double unit, char* unitstr, double *data,int dut)$/;"	f
+UA	common.h	155;"	d
+UBM_ADDR_BITSIZE	flash_info.h	30;"	d
+US	common.h	163;"	d
+UV	common.h	158;"	d
+Ubm_Read_Push	ubm.c	/^void Ubm_Read_Push(char *pinlist,unsigned int flash_addr, int reset_and_datanum, unsigned int data3, unsigned int data2,unsigned int data1, int dut)$/;"	f
+Ubm_Write_Push	ubm.c	/^void Ubm_Write_Push(char *pinlist,unsigned int flash_addr, int reset_and_datanum, unsigned int data3, unsigned int data2,unsigned int data1, int dut)$/;"	f
+V	common.h	160;"	d
+VCG_CBD_Addr	flash_info.h	144;"	d
+VCG_Meas_error	flash_info.h	132;"	d
+VCG_Measure_Target	flash_info.h	130;"	d
+VCG_TestMode	flash_info.h	99;"	d
+VCG_Trim_Target	flash_info.h	129;"	d
+VCG_Trim_error	flash_info.h	131;"	d
+VCG_Wait_Time	flash_info.h	152;"	d
+VCG_code_shift	flash_info.h	148;"	d
+VCG_mid_position	flash_info.h	114;"	d
+VCG_trim	common_flash.c	/^int VCG_trim[DDUTCNT][FLASH_NUM]={0};$/;"	v
+VCG_trim_value	flash_info.c	/^unsigned int VCG_trim_value[24]={22,21,20,19,18,23,30,17,16,29,28,27,26,31,14,25,24,13,12,11,10,15,9,8};$/;"	v
+VDD09_MAX	flash_info.h	66;"	d
+VDD09_NOM	flash_info.h	65;"	d
+VDD11_1P2MAX	flash_info.h	60;"	d
+VDD11_MAX	flash_info.h	61;"	d
+VDD11_MIN	flash_info.h	63;"	d
+VDD11_NOM	flash_info.h	62;"	d
+VDD33_1P2MAX	flash_info.h	55;"	d
+VDD33_MAX	flash_info.h	56;"	d
+VDD33_MIN	flash_info.h	58;"	d
+VDD33_NOM	flash_info.h	57;"	d
+VEG_CBD_Addr	flash_info.h	143;"	d
+VEG_Meas_error	flash_info.h	123;"	d
+VEG_Measure_Target	flash_info.h	121;"	d
+VEG_TestMode	flash_info.h	98;"	d
+VEG_Trim_Target	flash_info.h	120;"	d
+VEG_Trim_error	flash_info.h	122;"	d
+VEG_Wait_Time	flash_info.h	151;"	d
+VEG_code_shift	flash_info.h	147;"	d
+VEG_mid_position	flash_info.h	111;"	d
+VEG_trim	common_flash.c	/^int VEG_trim[DDUTCNT][FLASH_NUM]={0};$/;"	v
+VEG_trim_value	flash_info.c	/^unsigned int VEG_trim_value[24]={22,21,20,19,18,30,17,16,29,23,28,27,26,14,25,13,24,12,31,11,10,9,8,15};$/;"	v
+VPP_VCG_leakage	common_flash.c	/^double VPP_VCG_leakage[DDUTCNT][FLASH_NUM]={0};$/;"	v
+VPP_VEG_leakage	common_flash.c	/^double VPP_VEG_leakage[DDUTCNT][FLASH_NUM]={0};$/;"	v
+VREAD1_trim	common_flash.c	/^int VREAD1_trim[DDUTCNT][FLASH_NUM]={0};$/;"	v
+VREAD_TRIM_ADDR	flash_info.h	174;"	d
+VREAD_TRIM_SHIFT	flash_info.h	178;"	d
+VREF10_trim_value	flash_info.c	/^unsigned int VREF10_trim_value[16]={15,14,13,12,11,10,9,8,0,7,6,5,4,3,2,1};\/\/09JP$/;"	v
+VREF10_trimcount	flash_info.h	15;"	d
+VREF_Trim_Target	flash_info.h	90;"	d
+VREF_Trim_error	flash_info.h	92;"	d
+VREF_trim	flash_info.c	/^int 	VREF_trim[DDUTCNT]={0};$/;"	v
+VREF_trim_tmp	flash_info.c	/^int 	VREF_trim_tmp[DDUTCNT]={0};$/;"	v
+VREF_trimcount	flash_info.h	24;"	d
+VSL_CBD_Addr	flash_info.h	145;"	d
+VSL_Meas_error	flash_info.h	138;"	d
+VSL_TestMode	flash_info.h	100;"	d
+VSL_Trim_Target	flash_info.h	136;"	d
+VSL_Trim_error	flash_info.h	137;"	d
+VSL_Wait_Time	flash_info.h	153;"	d
+VSL_code_shift	flash_info.h	149;"	d
+VSL_mid_position	flash_info.h	116;"	d
+VSL_trim	common_flash.c	/^int VSL_trim[DDUTCNT][FLASH_NUM]={0};$/;"	v
+VSL_trim_value	flash_info.c	/^unsigned int VSL_trim_value[24]={14,13,12,11,10,15,30,9,8,29,28,27,26,22,31,21,25,24,20,19,18,23,17,16};$/;"	v
+VcodeTmp	flash_info.c	/^unsigned int VcodeTmp[DDUTCNT]={0};$/;"	v
+VsMVM	libModeChange.c	/^static	void	VsMVM( VsHandle h, int vtcvsno) {$/;"	f	file:
+VsOpenByList	common.c	/^void VsOpenByList(char *pinlist)$/;"	f
+VsVSIM	libModeChange.c	/^static	void	VsVSIM( VsHandle h, int vtcvsno) {$/;"	f	file:
+WAFERID_ECC	common_flash.c	/^int WAFERID_ECC[DDUTCNT]={0};$/;"	v
+WAFERID_XY_ECC	common_flash.c	/^unsigned short  WAFERID_XY_ECC[DDUTCNT]={0};$/;"	v
+WAFERID_h32	common_flash.c	/^unsigned int WAFERID_h32[DDUTCNT]={0};$/;"	v
+WAFERID_h32_nc_reload	common_flash.c	/^unsigned int WAFERID_h32_nc_reload[DDUTCNT]={0};$/;"	v
+WAFERID_l32	common_flash.c	/^unsigned int WAFERID_l32[DDUTCNT]={0};$/;"	v
+WAFERID_l32_nc_reload	common_flash.c	/^unsigned int WAFERID_l32_nc_reload[DDUTCNT]={0};$/;"	v
+WAFER_LOT_ID_ADDR	flash_info.h	221;"	d
+WAFER_LOT_ID_ECC	common_flash.c	/^int WAFER_LOT_ID_ECC[DDUTCNT]={0};$/;"	v
+WAIT_SITE_SYNC	common.h	484;"	d
+WaferId	common.c	/^char *WaferId = {'\\0'};$/;"	v
+WaferSlotNumber	common.c	/^char *WaferSlotNumber = {'\\0'};$/;"	v
+X0	common.h	179;"	d
+X1	common.h	180;"	d
+X10	common.h	189;"	d
+X11	common.h	190;"	d
+X12	common.h	191;"	d
+X13	common.h	192;"	d
+X14	common.h	193;"	d
+X15	common.h	194;"	d
+X16	common.h	195;"	d
+X17	common.h	196;"	d
+X18	common.h	197;"	d
+X19	common.h	198;"	d
+X2	common.h	181;"	d
+X20	common.h	199;"	d
+X21	common.h	200;"	d
+X22	common.h	201;"	d
+X23	common.h	202;"	d
+X24	common.h	203;"	d
+X25	common.h	204;"	d
+X26	common.h	205;"	d
+X27	common.h	206;"	d
+X28	common.h	207;"	d
+X29	common.h	208;"	d
+X3	common.h	182;"	d
+X30	common.h	209;"	d
+X31	common.h	210;"	d
+X4	common.h	183;"	d
+X5	common.h	184;"	d
+X6	common.h	185;"	d
+X7	common.h	186;"	d
+X8	common.h	187;"	d
+X9	common.h	188;"	d
+XYh32	common_flash.c	/^unsigned int XYh32[DDUTCNT]={0};$/;"	v
+XYl32	common_flash.c	/^unsigned int XYl32[DDUTCNT]={0};$/;"	v
+Xcoordinate	tb_efa_func.c	/^		int Xcoordinate;$/;"	m	struct:efa_file	file:
+Y0	common.h	211;"	d
+Y1	common.h	212;"	d
+Y10	common.h	221;"	d
+Y11	common.h	222;"	d
+Y12	common.h	223;"	d
+Y13	common.h	224;"	d
+Y14	common.h	225;"	d
+Y15	common.h	226;"	d
+Y16	common.h	227;"	d
+Y17	common.h	228;"	d
+Y18	common.h	229;"	d
+Y19	common.h	230;"	d
+Y2	common.h	213;"	d
+Y20	common.h	231;"	d
+Y21	common.h	232;"	d
+Y22	common.h	233;"	d
+Y23	common.h	234;"	d
+Y24	common.h	235;"	d
+Y25	common.h	236;"	d
+Y26	common.h	237;"	d
+Y27	common.h	238;"	d
+Y28	common.h	239;"	d
+Y29	common.h	240;"	d
+Y3	common.h	214;"	d
+Y30	common.h	241;"	d
+Y31	common.h	242;"	d
+Y4	common.h	215;"	d
+Y5	common.h	216;"	d
+Y6	common.h	217;"	d
+Y7	common.h	218;"	d
+Y8	common.h	219;"	d
+Y9	common.h	220;"	d
+Ycoordinate	tb_efa_func.c	/^		int Ycoordinate;$/;"	m	struct:efa_file	file:
+_COMMON_FLASH_H	common_flash.h	2;"	d
+_COMMON_H	common.h	2;"	d
+_DBMLOD_H	dbmlod.h	2;"	d
+_FCM_H	fcm.h	2;"	d
+_FLASH_INFO_H	flash_info.h	2;"	d
+_MX_DBM_H	dbm.h	2;"	d
+_PDSMEMORY_H	pdsmemory.h	2;"	d
+_SOC_PINFMT_H	soc_pinfmt.h	2;"	d
+_SOC_PINLIST_H	soc_pinlist.h	2;"	d
+_SOC_TIMING_H	soc_timing.h	2;"	d
+_TB_DEBUG_FUNC_H	tb_debug_func.h	2;"	d
+_TB_EFA_FUNC_H	tb_efa_func.h	2;"	d
+_TB_FLASH_FUNC_H	tb_flash_func.h	2;"	d
+_TB_SOC_FUNC_H	tb_soc_func.h	2;"	d
+_TIMING_H	timing.h	2;"	d
+_UBM_H	ubm.h	2;"	d
+__FLOW_CP_H__	flow_cp.h	2;"	d
+__FLOW_DEBUG_H__	flow_debug.h	2;"	d
+__FLOW_EFA_H__	flow_efa.h	2;"	d
+___libModeChange_H	libModeChange.h	2;"	d
+bFlowDutActive	common.c	/^bool bFlowDutActive[DDUTCNT];$/;"	v
+bin_number	tb_efa_func.c	/^		int bin_number;$/;"	m	struct:efa_file	file:
+cellcurrent_measure_40_128Kx64	tb_efa_func.c	/^void cellcurrent_measure_40_128Kx64(int dut,int start_addr,int end_addr)$/;"	f
+cellcurrent_measure_modeonce_40_128Kx64	tb_efa_func.c	/^void cellcurrent_measure_modeonce_40_128Kx64(int dut,int start_addr,int end_addr)$/;"	f
+check_new_sect_addr	common_flash.c	/^int check_new_sect_addr(int fail_num,int fail1_sect_addr ,int fail2_sect_addr,int dut)$/;"	f
+column_shift_bit	tb_efa_func.c	/^int column_shift_bit=0x01;$/;"	v
+compare	common.c	/^int compare(const void* a, const void* b)$/;"	f
+cover_mode	tb_efa_func.c	/^int cover_mode=0;\/\/-- word_add=0;row_add=1$/;"	v
+crc_table	tb_soc_func.h	/^const unsigned int crc_table[256] = {$/;"	v
+dbm_reset	dbm.c	/^void dbm_reset()$/;"	f
+dbmap_set_condition	dbm.c	/^void dbmap_set_condition(char* pinlst, long bitmode)$/;"	f
+dbmap_write	dbm.c	/^int dbmap_write( char *patName, unsigned int *dbm_data, int depth, int start, int dbm_bitmode)$/;"	f
+debug_ReadFlash	tb_debug_func.c	/^void  debug_ReadFlash(unsigned int AREA,unsigned int addr)$/;"	f
+debug_ReadFlash_SaveFile	tb_debug_func.c	/^void debug_ReadFlash_SaveFile(char* identifier, int area, int startaddr, int endaddr, int stepaddr)$/;"	f
+debug_ReadReg_Print	tb_debug_func.c	/^void debug_ReadReg_Print()$/;"	f
+debug_Ref_current	tb_debug_func.c	/^void  debug_Ref_current()$/;"	f
+debug_cell_current	tb_debug_func.c	/^void debug_cell_current()$/;"	f
+debug_cell_current_one_addr	tb_debug_func.c	/^void debug_cell_current_one_addr()$/;"	f
+debug_cell_current_one_addr_scan_1	tb_debug_func.c	/^void debug_cell_current_one_addr_scan_1()$/;"	f
+debug_cell_current_one_addr_scan_2	tb_debug_func.c	/^void debug_cell_current_one_addr_scan_2()$/;"	f
+debug_endurance_screen	tb_debug_func.c	/^void debug_endurance_screen(){$/;"	f
+debug_nvrx_program_debug	tb_debug_func.c	/^void debug_nvrx_program_debug(){ $/;"	f
+debug_nvrx_program_debug2	tb_debug_func.c	/^void debug_nvrx_program_debug2(){ $/;"	f
+debug_program_one_row	tb_debug_func.c	/^void debug_program_one_row(){$/;"	f
+debug_read_Margin0_ckbd_cg3p5_scan	tb_debug_func.c	/^void debug_read_Margin0_ckbd_cg3p5_scan(){$/;"	f
+debug_sector_erase_one	tb_debug_func.c	/^void debug_sector_erase_one(){$/;"	f
+debug_set_active_dut	tb_efa_func.c	/^void debug_set_active_dut()$/;"	f
+do_crc	tb_soc_func.c	/^unsigned short do_crc(unsigned char *ptr, int len)$/;"	f
+do_crc_table	tb_soc_func.c	/^unsigned short do_crc_table(unsigned char *ptr,int len)$/;"	f
+dut_active	tb_efa_func.c	/^int dut_active[DDUTCNT]={0};			\/\/--DDUTCNT.record file dut			$/;"	v
+eDC_IRNG	common.h	/^enum eDC_IRNG { R5uA, R20uA, R200uA, R2mA, R20mA, Rm20mA };$/;"	g
+eDC_VRNG	common.h	/^enum eDC_VRNG { R20V, R5V, Rm20V };$/;"	g
+ePPS_MRNG	common.h	/^enum ePPS_MRNG { M40uA, M400uA, M4mA, M40mA, M400mA,M1200mA, M8A };$/;"	g
+ePPS_SRNG	common.h	/^enum ePPS_SRNG { R2V, R3V, R4V, R16V };$/;"	g
+eVPP_MRNG	common.h	/^enum eVPP_MRNG { M8uA, M80uA, M800uA, M8mA, M128mA,M8V, Mm8V, M32V, Mm32V };$/;"	g
+eVPP_SRNG	common.h	/^enum eVPP_SRNG { R8V, R32V };$/;"	g
+efaFile	tb_efa_func.c	/^}efaFile;$/;"	t	typeref:struct:efa_file	file:
+efa_2x8rows	tb_efa_func.c	/^const char* efa_2x8rows="2x8ROWS_00";$/;"	v
+efa_bin_string	tb_efa_func.c	/^char* efa_bin_string="";$/;"	v
+efa_cg3p5v	tb_efa_func.c	/^const char* efa_cg3p5v="CG3P5V";$/;"	v
+efa_ckbd	tb_efa_func.c	/^const char* efa_ckbd="CKBD";$/;"	v
+efa_diagonal	tb_efa_func.c	/^const char* efa_diagonal="diagonal";$/;"	v
+efa_ff	tb_efa_func.c	/^const char* efa_ff="FF";$/;"	v
+efa_file	tb_efa_func.c	/^typedef struct efa_file $/;"	s	file:
+efa_ht	tb_efa_func.c	/^const char* efa_ht="HT";$/;"	v
+efa_ickbd	tb_efa_func.c	/^const char* efa_ickbd="ICKBD";$/;"	v
+efa_lvctl	tb_efa_func.c	/^const char* efa_lvctl="LVCTL";$/;"	v
+efa_m0	tb_efa_func.c	/^const char* efa_m0="M0";$/;"	v
+efa_m1	tb_efa_func.c	/^const char* efa_m1="M1";$/;"	v
+efafile	tb_efa_func.c	/^efaFile efafile[100];$/;"	v
+end_row	tb_efa_func.c	/^int end_row=0x1ff80;$/;"	v
+end_sector	tb_efa_func.c	/^int end_sector=0x1fe00;$/;"	v
+end_word	tb_efa_func.c	/^int end_word=0x1ffff;$/;"	v
+ext_bin_no	tb_efa_func.c	/^int ext_bin_no[DDUTCNT]={0};$/;"	v
+ext_dutrepeat	tb_efa_func.c	/^int ext_dutrepeat[DDUTCNT]={0};$/;"	v
+ext_mass_end_addr	tb_efa_func.c	/^int ext_mass_end_addr[DDUTCNT][FLASH_NUM][10]={0};\/\/-- 10 is repeat_no,define max is 10.$/;"	v
+ext_mass_start_addr	tb_efa_func.c	/^int ext_mass_start_addr[DDUTCNT][FLASH_NUM][10]={0};\/\/-- 10 is repeat_no,define max is 10.$/;"	v
+fail_sect_addr	common_flash.c	/^int fail_sect_addr[DDUTCNT][FLASH_NUM][4]={0};$/;"	v
+fail_sect_addr1	common_flash.c	/^int fail_sect_addr1[DDUTCNT][FLASH_NUM]={0};$/;"	v
+fail_sect_addr2	common_flash.c	/^int fail_sect_addr2[DDUTCNT][FLASH_NUM]={0};$/;"	v
+fail_sect_count	common_flash.c	/^int fail_sect_count[DDUTCNT][FLASH_NUM]={0};$/;"	v
+fail_sect_num	common_flash.c	/^int fail_sect_num[DDUTCNT][FLASH_NUM]={0};$/;"	v
+fail_word_addr	tb_efa_func.c	/^int fail_word_addr[max_max_bit][DDUTCNT][FLASH_NUM];$/;"	v
+find_1_bit_each_word	tb_efa_func.c	/^void find_1_bit_each_word()$/;"	f
+find_1_word_each_row	tb_efa_func.c	/^void find_1_word_each_row(int dut)$/;"	f
+find_1_word_each_sector	tb_efa_func.c	/^void find_1_word_each_sector(int dut)$/;"	f
+find_1_word_each_word	tb_efa_func.c	/^void find_1_word_each_word(int dut)$/;"	f
+find_2_word_of_main_array	tb_efa_func.c	/^void find_2_word_of_main_array(int dut)$/;"	f
+find_mode	tb_efa_func.c	/^int find_mode=1;\/\/-- chip=0;sector=1;row=2;word=3$/;"	v
+g_BinName	common.c	/^char *g_BinName[DDUTCNT];$/;"	v
+g_BinNo	common.c	/^int g_BinNo[DDUTCNT] = {0};$/;"	v
+g_Rejected	common.c	/^int g_Rejected[DDUTCNT] = {0};$/;"	v
+g_die_X	common.c	/^int g_die_X[DDUTCNT] = {0};$/;"	v
+g_die_Y	common.c	/^int g_die_Y[DDUTCNT] = {0};$/;"	v
+g_flash_no	common.c	/^int g_flash_no=1;$/;"	v
+g_mode	common_flash.c	/^int g_mode =-1; \/\/--  is used in FlashPatStart, please cover by lily with FlashPatStart$/;"	v
+g_pinlist	common.c	/^PIN_STRUCT g_pinlist[64];$/;"	v
+g_tRjectTitemTime	common.c	/^double g_tRjectTitemTime[DDUTCNT];$/;"	v
+getMidValue	common.c	/^void getMidValue(double *source,int cnt, double *destination, int dut)$/;"	f
+getParity	tb_soc_func.c	/^int getParity(int n)$/;"	f
+idh32	common_flash.c	/^unsigned int idh32[DDUTCNT]={0};$/;"	v
+idl32	common_flash.c	/^unsigned int idl32[DDUTCNT]={0};$/;"	v
+in_flash_loop	common.c	/^int in_flash_loop=0;$/;"	v
+io_no	tb_efa_func.c	/^int io_no=64;$/;"	v
+isRepair	common_flash.c	/^bool  isRepair[DDUTCNT]={0};$/;"	v
+main	main.c	/^int main(int argc, char **argv)$/;"	f
+mass_end_word	tb_efa_func.c	/^		int mass_end_word;$/;"	m	struct:efa_file	file:
+mass_start_word	tb_efa_func.c	/^		int mass_start_word; $/;"	m	struct:efa_file	file:
+max_max_bit	tb_efa_func.c	61;"	d	file:
+measure_HV_MVM	common_flash.c	/^void measure_HV_MVM(int testmode)$/;"	f
+measure_HV_VSIM	common_flash.c	/^void measure_HV_VSIM(int testmode)$/;"	f
+measure_cell_current_40_128Kx64	tb_efa_func.c	/^void measure_cell_current_40_128Kx64(int dut)$/;"	f
+measure_cell_current_modeonce_40_128Kx64	tb_efa_func.c	/^void measure_cell_current_modeonce_40_128Kx64(int dut)$/;"	f
+measure_word_addr	tb_efa_func.c	/^int measure_word_addr[max_max_bit*5][DDUTCNT][FLASH_NUM];$/;"	v
+mode_flash	flash_info.h	21;"	d
+mode_logic	flash_info.h	22;"	d
+mpa_name	common.c	/^char mpa_name[50]="NULL";$/;"	v
+notch	tb_efa_func.c	/^		int notch;$/;"	m	struct:efa_file	file:
+nvr_data	flash_info.c	/^int nvr_data[261][4][3]=$/;"	v
+nvr_data_final_vcode	flash_info.c	/^int nvr_data_final_vcode[4][3]={0};$/;"	v
+nvr_data_iterate_vcode_H8	flash_info.c	/^int nvr_data_iterate_vcode_H8[4][3]={0};$/;"	v
+nvr_data_iterate_vcode_L8	flash_info.c	/^int nvr_data_iterate_vcode_L8[4][3]={0};$/;"	v
+nvr_data_lot_coord	flash_info.c	/^int nvr_data_lot_coord[4][3]={0};$/;"	v
+pinname	common.h	/^	char pinname[100];$/;"	m	struct:__anon1
+pinno	common.h	/^	int pinno;$/;"	m	struct:__anon1
+query	tb_efa_func.c	/^int query(int *bin_lab,int ext_bin_no)$/;"	f
+rate_10mhz	common_flash.h	/^enum rate_sel{rate_20mhz=0, rate_15mhz, rate_10mhz, rate_5mhz};$/;"	e	enum:rate_sel
+rate_15mhz	common_flash.h	/^enum rate_sel{rate_20mhz=0, rate_15mhz, rate_10mhz, rate_5mhz};$/;"	e	enum:rate_sel
+rate_20mhz	common_flash.h	/^enum rate_sel{rate_20mhz=0, rate_15mhz, rate_10mhz, rate_5mhz};$/;"	e	enum:rate_sel
+rate_5mhz	common_flash.h	/^enum rate_sel{rate_20mhz=0, rate_15mhz, rate_10mhz, rate_5mhz};$/;"	e	enum:rate_sel
+rate_sel	common_flash.h	/^enum rate_sel{rate_20mhz=0, rate_15mhz, rate_10mhz, rate_5mhz};$/;"	g
+read_CKBD	tb_efa_func.c	/^int read_CKBD[40]={885,68,242,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};	$/;"	v
+read_CKBD_LVCTL	tb_efa_func.c	/^int read_CKBD_LVCTL[40]={895,71,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};$/;"	v
+read_FF	tb_efa_func.c	/^int read_FF[40]={882,34,96,128,136,140,144,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};	$/;"	v
+read_ICKBD	tb_efa_func.c	/^int read_ICKBD[40]={889,103,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};	$/;"	v
+read_ICKBD_LVCTL	tb_efa_func.c	/^int read_ICKBD_LVCTL[40]={896,106,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};$/;"	v
+read_M0_2x8ROWS_00	tb_efa_func.c	/^int read_M0_2x8ROWS_00[40]={897,45,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};$/;"	v
+read_M0_CKBD	tb_efa_func.c	/^int read_M0_CKBD[40]={886,69,84,90,93,152,218,243,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};	$/;"	v
+read_M0_CKBD_CG3P5V	tb_efa_func.c	/^int read_M0_CKBD_CG3P5V[40]={893,78,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};$/;"	v
+read_M0_ICKBD	tb_efa_func.c	/^int read_M0_ICKBD[40]={890,104,116,122,125,252,318,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};	$/;"	v
+read_M0_ICKBD_CG3P5V	tb_efa_func.c	/^int read_M0_ICKBD_CG3P5V[40]={894,113,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};$/;"	v
+read_M1_CKBD	tb_efa_func.c	/^int read_M1_CKBD[40]={887,70,85,99,153,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};	$/;"	v
+read_M1_FF	tb_efa_func.c	/^int read_M1_FF[40]={883,37,46,49,52,56,59,62,65,100,132,148,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};	$/;"	v
+read_M1_HT_CKBD	tb_efa_func.c	/^int read_M1_HT_CKBD[40]={888,219,244,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};	$/;"	v
+read_M1_HT_FF	tb_efa_func.c	/^int read_M1_HT_FF[40]={884,226,229,232,247,323,332,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};	$/;"	v
+read_M1_HT_ICKBD	tb_efa_func.c	/^int read_M1_HT_ICKBD[40]={892,253,319,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};$/;"	v
+read_M1_ICKBD	tb_efa_func.c	/^int read_M1_ICKBD[40]={891,105,117,131,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};	$/;"	v
+read_diagonal	tb_efa_func.c	/^int read_diagonal[40]={881,55,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800,800};$/;"	v
+read_efa_file	tb_efa_func.c	/^void read_efa_file() {    $/;"	f
+repeat_no	tb_efa_func.c	/^int repeat_no=0;$/;"	v
+row	tb_efa_func.c	/^char row[MAX_LINE_LENGTH];$/;"	v
+row_shift_bit	tb_efa_func.c	/^int row_shift_bit=0x80;\/\/-- ROW_SHIFT_ADDR$/;"	v
+sector_shift_bit	tb_efa_func.c	/^int sector_shift_bit=0x200;\/\/-- SECT_SHIFT_ADDR$/;"	v
+setDbmPointer	dbm.c	/^void setDbmPointer(char *patname)$/;"	f
+setDcISVM	common.c	/^void setDcISVM( double sval, enum eDC_IRNG srng, enum eDC_VRNG mrng, double pclamp, double mclamp, double hlimit, double llimit, int cnt)$/;"	f
+setDcVSIM	common.c	/^void setDcVSIM( double sval, enum eDC_VRNG srng, enum eDC_IRNG mrng, double pclamp, double mclamp, double hlimit, double llimit, int cnt)$/;"	f
+setHvMVM	common.c	/^void setHvMVM(char *pinlist,enum eVPP_MRNG mrng, double upperLimit, double lowerLimit, int cnt)$/;"	f
+setHvMVM	common.c	/^void setHvMVM(int vsno,enum eVPP_MRNG mrng, double upperLimit, double lowerLimit, int cnt)$/;"	f
+setHvMask	common.c	/^void setHvMask(char *pinlist)$/;"	f
+setHvMask	common.c	/^void setHvMask(int vsno)$/;"	f
+setHvUnMask	common.c	/^void setHvUnMask(char *pinlist)$/;"	f
+setHvUnMask	common.c	/^void setHvUnMask(int vsno)$/;"	f
+setHvVSIM	common.c	/^void setHvVSIM(char *pinlist, double val, enum eVPP_SRNG srng, enum eVPP_MRNG mrng, double pclamp, double mclamp, double upperLimit, double lowerLimit, int cnt)$/;"	f
+setHvVSIM	common.c	/^void setHvVSIM(int vsno, double val, enum eVPP_SRNG srng, enum eVPP_MRNG mrng, double pclamp, double mclamp, double upperLimit, double lowerLimit, int cnt)$/;"	f
+setHvVSIM_ByFlashLoop	common.c	/^void setHvVSIM_ByFlashLoop(int vsno, double val[][FLASH_NUM], enum eVPP_SRNG srng, enum eVPP_MRNG mrng, double upperLimit, double lowerLimit, int cnt,int flash_no)$/;"	f
+setPdsMemoryPat	common.c	/^void setPdsMemoryPat( PdsMemoryHandle pds_memory_handle, int pds_adr, int mut_a, int mut_b, int mut_c, int mut_d)$/;"	f
+setPinLevelFixh	common.c	/^void setPinLevelFixh(char *pinlist){$/;"	f
+setPinLevelFixh	common.c	/^void setPinLevelFixh(char *pinlist,int dut){$/;"	f
+setPinLevelNone	common.c	/^void setPinLevelNone(char *pinlist){$/;"	f
+setPinLevelNone	common.c	/^void setPinLevelNone(char *pinlist,int dut){$/;"	f
+setPinPds	common.c	/^void setPinPds( const char *pinlist, int datamux)$/;"	f
+setRegAddr	common_flash.c	/^void setRegAddr(unsigned addr_area)$/;"	f
+setRegAddr	common_flash.c	/^void setRegAddr(unsigned addr_area, unsigned int addr){$/;"	f
+setRegAddrNUM	common_flash.c	/^void setRegAddrNUM(unsigned addr_area,int addnum)$/;"	f
+setRegAddr_D1D	common_flash.c	/^void setRegAddr_D1D(unsigned addr_area, unsigned int addr){$/;"	f
+setRegDataIn	common_flash.c	/^void setRegDataIn(unsigned int data3, unsigned int data2, unsigned int data1){\/\/--data3=bit71:bit64,data2=bit63-bit32,data1=bit31-bit0$/;"	f
+setRegDataIn_TPHB	common_flash.c	/^void setRegDataIn_TPHB(unsigned int data3, unsigned int data2, unsigned int data1){\/\/--data3=bit71:bit64,data2=bit63-bit32,data1=bit31-bit0$/;"	f
+setRegDataOut	common_flash.c	/^void setRegDataOut(unsigned int data3, unsigned int data2, unsigned int data1){\/\/--data3=bit71:bit64,data2=bit63-bit32,data1=bit31-bit0$/;"	f
+setRegDataOut_TPHB	common_flash.c	/^void setRegDataOut_TPHB(unsigned int data3, unsigned int data2, unsigned int data1){\/\/--data3=bit71:bit64,data2=bit63-bit32,data1=bit31-bit0$/;"	f
+setRegFlashNo	common_flash.c	/^void setRegFlashNo(int flash_no){$/;"	f
+setRegMultiAddr	common_flash.c	/^void setRegMultiAddr(unsigned addr_area, unsigned int addr_start, unsigned int addr_stop, unsigned int addr_step){$/;"	f
+setRegRDNAreaLoop	common_flash.c	/^void setRegRDNAreaLoop(unsigned area_start, unsigned int area_num, unsigned int addr){$/;"	f
+setRegValue	common.c	/^void setRegValue(RadioButton reg, USlider value)	$/;"	f
+setRegValue2	common.c	/^void setRegValue2(RadioButton reg, USlider value)	$/;"	f
+setVi	common.c	/^void setVi(double vihigh, double vilow, int vino)$/;"	f
+setVload	common.c	/^void setVload(double vload, int vload_no)$/;"	f
+setVo	common.c	/^void setVo(double vohigh, double volow, int vono)$/;"	f
+setVs	common.c	/^void setVs(int vsno, double val, enum ePPS_SRNG srng, enum ePPS_MRNG mrng, double pclamp, double mclamp, double upperLimit, double lowerLimit, int cnt)$/;"	f
+setVt	common.c	/^void setVt(double vt, int vtno)$/;"	f
+shotcounter	common.c	/^unsigned int shotcounter;$/;"	v
+start_row	tb_efa_func.c	/^int start_row=0;$/;"	v
+start_sector	tb_efa_func.c	/^int start_sector=0;$/;"	v
+start_word	tb_efa_func.c	/^int start_word=0;$/;"	v
+strNextSeq	common.c	/^char strNextSeq[DDUTCNT][100];$/;"	v
+tatus	makefile	/^	make -f makefile.body status=online$/;"	m
+tb_SOC_VREF_Monitor	tb_soc_func.c	/^void tb_SOC_VREF_Monitor(){$/;"	f
+tb_Write_Soc_Reg_Vref_trim	tb_soc_func.c	/^void tb_Write_Soc_Reg_Vref_trim(){$/;"	f
+tb_Write_Soc_Reg_Vref_trim_01	tb_soc_func.c	/^void tb_Write_Soc_Reg_Vref_trim_01(){$/;"	f
+tb_Write_Soc_Reg_Vref_trim_02	tb_soc_func.c	/^void tb_Write_Soc_Reg_Vref_trim_02(){$/;"	f
+tb_cell_current	common_flash.c	/^void tb_cell_current()$/;"	f
+tb_check_sort2_1column_error_main_array	common_flash.c	/^void tb_check_sort2_1column_error_main_array()$/;"	f
+tb_chip_enable	tb_flash_func.c	/^void tb_chip_enable(){$/;"	f
+tb_chip_erase_veg_trimming	tb_flash_func.c	/^void tb_chip_erase_veg_trimming(){$/;"	f
+tb_clear_bist_fail_reg	common_flash.c	/^void tb_clear_bist_fail_reg(){$/;"	f
+tb_cox2_stress	tb_flash_func.c	/^void tb_cox2_stress(){$/;"	f
+tb_deep_program_for_current_trim	tb_flash_func.c	/^void tb_deep_program_for_current_trim(){$/;"	f
+tb_deep_program_sector_erase	tb_flash_func.c	/^void tb_deep_program_sector_erase(){$/;"	f
+tb_deep_program_sector_read	tb_flash_func.c	/^void tb_deep_program_sector_read(){$/;"	f
+tb_efa_cell_current_40_128Kx64	tb_efa_func.c	/^void tb_efa_cell_current_40_128Kx64()$/;"	f
+tb_flash_ip_reset	tb_flash_func.c	/^void tb_flash_ip_reset(){$/;"	f
+tb_idd_auto_low_power	tb_flash_func.c	/^void tb_idd_auto_low_power(){$/;"	f
+tb_idd_auto_power	tb_flash_func.c	/^void tb_idd_auto_power(){$/;"	f
+tb_idd_deep_power_down	tb_flash_func.c	/^void tb_idd_deep_power_down(){$/;"	f
+tb_idd_erase	tb_flash_func.c	/^void tb_idd_erase(){$/;"	f
+tb_idd_erase_low	tb_flash_func.c	/^void tb_idd_erase_low(){$/;"	f
+tb_idd_program	tb_flash_func.c	/^void tb_idd_program(){$/;"	f
+tb_idd_program_low	tb_flash_func.c	/^void tb_idd_program_low(){$/;"	f
+tb_idd_read_high	tb_flash_func.c	/^void tb_idd_read_high(){$/;"	f
+tb_idd_standby	tb_flash_func.c	/^void tb_idd_standby(){$/;"	f
+tb_input_leakage	tb_soc_func.c	/^void tb_input_leakage(){$/;"	f
+tb_logical_address	tb_flash_func.c	/^void tb_logical_address(){$/;"	f
+tb_m0_read_triming	tb_flash_func.c	/^void tb_m0_read_triming(){$/;"	f
+tb_m1_read_triming	tb_flash_func.c	/^void tb_m1_read_triming(){$/;"	f
+tb_main_1sec_pre_program_00	tb_flash_func.c	/^void tb_main_1sec_pre_program_00(){$/;"	f
+tb_main_1sec_read_00	tb_flash_func.c	/^void tb_main_1sec_read_00(){$/;"	f
+tb_main_1st_row_column_program_00	tb_flash_func.c	/^void tb_main_1st_row_column_program_00(){$/;"	f
+tb_main_1st_row_column_read_00	tb_flash_func.c	/^void tb_main_1st_row_column_read_00(){$/;"	f
+tb_main_2x8rows_program_00	tb_flash_func.c	/^void tb_main_2x8rows_program_00(){$/;"	f
+tb_main_2x8rows_read_m0_00	tb_flash_func.c	/^void tb_main_2x8rows_read_m0_00(){$/;"	f
+tb_main_check_error	common_flash.c	/^void tb_main_check_error(){$/;"	f
+tb_main_check_sort2_error	common_flash.c	/^void tb_main_check_sort2_error(){$/;"	f
+tb_main_chip_erase	tb_flash_func.c	/^void tb_main_chip_erase(){$/;"	f
+tb_main_program_ckbd	tb_flash_func.c	/^void tb_main_program_ckbd(){$/;"	f
+tb_main_program_diagonal	tb_flash_func.c	/^void tb_main_program_diagonal(){$/;"	f
+tb_main_program_ff	tb_flash_func.c	/^void tb_main_program_ff(){$/;"	f
+tb_main_program_ickbd	tb_flash_func.c	/^void tb_main_program_ickbd(){$/;"	f
+tb_main_read_ckbd	tb_flash_func.c	/^void tb_main_read_ckbd(){$/;"	f
+tb_main_read_diagonal	tb_flash_func.c	/^void tb_main_read_diagonal(){$/;"	f
+tb_main_read_ff	tb_flash_func.c	/^void tb_main_read_ff(){$/;"	f
+tb_main_read_ickbd	tb_flash_func.c	/^void tb_main_read_ickbd(){$/;"	f
+tb_main_read_m0_ckbd	tb_flash_func.c	/^void tb_main_read_m0_ckbd(){$/;"	f
+tb_main_read_m0_ckbd_cg3p5v	tb_flash_func.c	/^void tb_main_read_m0_ckbd_cg3p5v(){$/;"	f
+tb_main_read_m0_ickbd	tb_flash_func.c	/^void tb_main_read_m0_ickbd(){$/;"	f
+tb_main_read_m0_ickbd_cg3p5v	tb_flash_func.c	/^void tb_main_read_m0_ickbd_cg3p5v(){$/;"	f
+tb_main_read_m1_ckbd	tb_flash_func.c	/^void tb_main_read_m1_ckbd(){$/;"	f
+tb_main_read_m1_ff	tb_flash_func.c	/^void tb_main_read_m1_ff(){$/;"	f
+tb_main_read_m1_ht_ckbd	tb_flash_func.c	/^void tb_main_read_m1_ht_ckbd(){$/;"	f
+tb_main_read_m1_ht_ff	tb_flash_func.c	/^void tb_main_read_m1_ht_ff(){$/;"	f
+tb_main_read_m1_ht_ickbd	tb_flash_func.c	/^void tb_main_read_m1_ht_ickbd(){$/;"	f
+tb_main_read_m1_ickbd	tb_flash_func.c	/^void tb_main_read_m1_ickbd(){$/;"	f
+tb_main_sector_erase	tb_flash_func.c	/^void tb_main_sector_erase(){$/;"	f
+tb_mbist_mux_setup	tb_flash_func.c	/^void tb_mbist_mux_setup(){$/;"	f
+tb_measure_vcg_program	tb_flash_func.c	/^void tb_measure_vcg_program(){$/;"	f
+tb_measure_vcg_program_ht	tb_flash_func.c	/^void tb_measure_vcg_program_ht(){$/;"	f
+tb_measure_veg_chip_erase	tb_flash_func.c	/^void tb_measure_veg_chip_erase(){$/;"	f
+tb_measure_veg_chip_erase_ht	tb_flash_func.c	/^void tb_measure_veg_chip_erase_ht(){$/;"	f
+tb_measure_vsl_program	tb_flash_func.c	/^void tb_measure_vsl_program(){$/;"	f
+tb_measure_vsl_program_ht	tb_flash_func.c	/^void tb_measure_vsl_program_ht(){$/;"	f
+tb_mrn_chip_erase	tb_flash_func.c	/^void tb_mrn_chip_erase(){$/;"	f
+tb_mrn_chip_erase_x50	tb_flash_func.c	/^void tb_mrn_chip_erase_x50(){$/;"	f
+tb_mrn_cox_stress	tb_flash_func.c	/^void tb_mrn_cox_stress(){$/;"	f
+tb_mrn_endurance_screen	tb_flash_func.c	/^void tb_mrn_endurance_screen(){$/;"	f
+tb_mrn_gox_stress_hhi	tb_flash_func.c	/^void tb_mrn_gox_stress_hhi(){$/;"	f
+tb_mrn_me_1word_ff	tb_flash_func.c	/^void tb_mrn_me_1word_ff(){$/;"	f
+tb_mrn_me_program_00	tb_flash_func.c	/^void tb_mrn_me_program_00(){$/;"	f
+tb_mrn_mo_1word_ff	tb_flash_func.c	/^void tb_mrn_mo_1word_ff(){$/;"	f
+tb_mrn_mo_program_00	tb_flash_func.c	/^void tb_mrn_mo_program_00(){$/;"	f
+tb_mrn_rdist_stress	tb_flash_func.c	/^void tb_mrn_rdist_stress(){$/;"	f
+tb_mrn_sol_ox_stress	tb_flash_func.c	/^void tb_mrn_sol_ox_stress(){$/;"	f
+tb_normal_read_triming	tb_flash_func.c	/^void tb_normal_read_triming()$/;"	f
+tb_nvr_cfg_cycling_x10	tb_flash_func.c	/^void tb_nvr_cfg_cycling_x10(){$/;"	f
+tb_nvr_cfg_dump_NcData	tb_flash_func.c	/^void tb_nvr_cfg_dump_NcData(){$/;"	f
+tb_nvr_cfg_lock_en_sector_erase	tb_flash_func.c	/^void tb_nvr_cfg_lock_en_sector_erase(){$/;"	f
+tb_nvr_cfg_program_Vcode	tb_soc_func.c	/^void tb_nvr_cfg_program_Vcode(){$/;"	f
+tb_nvr_cfg_program_cp1_id	tb_flash_func.c	/^void tb_nvr_cfg_program_cp1_id(){$/;"	f
+tb_nvr_cfg_program_cp2_id	tb_flash_func.c	/^void tb_nvr_cfg_program_cp2_id(){$/;"	f
+tb_nvr_cfg_program_cp3_id	tb_flash_func.c	/^void tb_nvr_cfg_program_cp3_id(){$/;"	f
+tb_nvr_cfg_program_read_s2reteststamp	tb_flash_func.c	/^void tb_nvr_cfg_program_read_s2reteststamp(){$/;"	f
+tb_nvr_cfg_program_read_s3reteststamp	tb_flash_func.c	/^void tb_nvr_cfg_program_read_s3reteststamp(){$/;"	f
+tb_nvr_cfg_program_repaired_rows	common_flash.c	/^void tb_nvr_cfg_program_repaired_rows(){$/;"	f
+tb_nvr_cfg_program_soc_trim	tb_soc_func.c	/^void tb_nvr_cfg_program_soc_trim()$/;"	f
+tb_nvr_cfg_program_trim	tb_flash_func.c	/^void tb_nvr_cfg_program_trim()$/;"	f
+tb_nvr_cfg_program_trim_01	tb_flash_func.c	/^void tb_nvr_cfg_program_trim_01(){$/;"	f
+tb_nvr_cfg_read_00	tb_flash_func.c	/^void tb_nvr_cfg_read_00(){$/;"	f
+tb_nvr_cfg_read_Vcode	tb_soc_func.c	/^void tb_nvr_cfg_read_Vcode(){$/;"	f
+tb_nvr_cfg_read_all_data	tb_flash_func.c	/^void tb_nvr_cfg_read_all_data(){$/;"	f
+tb_nvr_cfg_read_cp1_id	tb_flash_func.c	/^void tb_nvr_cfg_read_cp1_id(){$/;"	f
+tb_nvr_cfg_read_cp2_id	tb_flash_func.c	/^void tb_nvr_cfg_read_cp2_id(){$/;"	f
+tb_nvr_cfg_read_cp2_retest_stamp	tb_flash_func.c	/^void tb_nvr_cfg_read_cp2_retest_stamp(){$/;"	f
+tb_nvr_cfg_read_cp3_id	tb_flash_func.c	/^void tb_nvr_cfg_read_cp3_id(){$/;"	f
+tb_nvr_cfg_read_cp3_retest_stamp	tb_flash_func.c	/^void tb_nvr_cfg_read_cp3_retest_stamp(){$/;"	f
+tb_nvr_cfg_read_ff	tb_flash_func.c	/^void tb_nvr_cfg_read_ff(){$/;"	f
+tb_nvr_cfg_read_trim	tb_flash_func.c	/^void tb_nvr_cfg_read_trim(){$/;"	f
+tb_nvr_cfg_read_trim_01	tb_flash_func.c	/^void tb_nvr_cfg_read_trim_01(){$/;"	f
+tb_nvr_cfg_sector_erase	tb_flash_func.c	/^void tb_nvr_cfg_sector_erase(){$/;"	f
+tb_nvr_program_ckbd	tb_flash_func.c	/^void tb_nvr_program_ckbd(){ $/;"	f
+tb_nvr_program_customer_data	tb_soc_func.c	/^void tb_nvr_program_customer_data()$/;"	f
+tb_nvr_program_customer_data_01	tb_soc_func.c	/^void tb_nvr_program_customer_data_01()$/;"	f
+tb_nvr_program_customer_data_02	tb_soc_func.c	/^void tb_nvr_program_customer_data_02()$/;"	f
+tb_nvr_program_customer_data_03	tb_soc_func.c	/^void tb_nvr_program_customer_data_03()$/;"	f
+tb_nvr_program_customer_data_04	tb_soc_func.c	/^void tb_nvr_program_customer_data_04()$/;"	f
+tb_nvr_program_customer_data_05	tb_soc_func.c	/^void tb_nvr_program_customer_data_05()$/;"	f
+tb_nvr_program_ff	tb_flash_func.c	/^void tb_nvr_program_ff(){ $/;"	f
+tb_nvr_program_ickbd	tb_flash_func.c	/^void tb_nvr_program_ickbd(){$/;"	f
+tb_nvr_read_ckbd	tb_flash_func.c	/^void tb_nvr_read_ckbd(){$/;"	f
+tb_nvr_read_ff	tb_flash_func.c	/^void tb_nvr_read_ff(){$/;"	f
+tb_nvr_read_ickbd	tb_flash_func.c	/^void tb_nvr_read_ickbd(){$/;"	f
+tb_nvr_read_m0_ckbd	tb_flash_func.c	/^void tb_nvr_read_m0_ckbd(){$/;"	f
+tb_nvr_read_m0_ckbd_cg3p5v	tb_flash_func.c	/^void tb_nvr_read_m0_ckbd_cg3p5v(){$/;"	f
+tb_nvr_read_m0_ickbd	tb_flash_func.c	/^void tb_nvr_read_m0_ickbd(){$/;"	f
+tb_nvr_read_m0_ickbd_cg3p5v	tb_flash_func.c	/^void tb_nvr_read_m0_ickbd_cg3p5v(){$/;"	f
+tb_nvr_read_m1_ckbd	tb_flash_func.c	/^void tb_nvr_read_m1_ckbd(){$/;"	f
+tb_nvr_read_m1_ff	tb_flash_func.c	/^void tb_nvr_read_m1_ff(){$/;"	f
+tb_nvr_read_m1_ht_ckbd	tb_flash_func.c	/^void tb_nvr_read_m1_ht_ckbd(){$/;"	f
+tb_nvr_read_m1_ht_ff	tb_flash_func.c	/^void tb_nvr_read_m1_ht_ff(){$/;"	f
+tb_nvr_read_m1_ht_ickbd	tb_flash_func.c	/^void tb_nvr_read_m1_ht_ickbd(){$/;"	f
+tb_nvr_read_m1_ickbd	tb_flash_func.c	/^void tb_nvr_read_m1_ickbd(){$/;"	f
+tb_nvr_sector_erase	tb_flash_func.c	/^void tb_nvr_sector_erase(){$/;"	f
+tb_nvrx_program_debug2	tb_debug_func.c	/^void tb_nvrx_program_debug2(){ $/;"	f
+tb_opens_shorts	tb_soc_func.c	/^void tb_opens_shorts(){$/;"	f
+tb_physical_address	tb_flash_func.c	/^void tb_physical_address(){$/;"	f
+tb_power_leakage	tb_soc_func.c	/^void tb_power_leakage(){$/;"	f
+tb_program_vcg_trimming	tb_flash_func.c	/^void tb_program_vcg_trimming(){ $/;"	f
+tb_program_vsl_trimming	tb_flash_func.c	/^void tb_program_vsl_trimming(){$/;"	f
+tb_rdn_program_ckbd	tb_flash_func.c	/^void tb_rdn_program_ckbd(){$/;"	f
+tb_rdn_program_ff	tb_flash_func.c	/^void tb_rdn_program_ff(){$/;"	f
+tb_rdn_program_ickbd	tb_flash_func.c	/^void tb_rdn_program_ickbd(){$/;"	f
+tb_rdn_read_ckbd	tb_flash_func.c	/^void tb_rdn_read_ckbd(){$/;"	f
+tb_rdn_read_ff	tb_flash_func.c	/^void tb_rdn_read_ff(){$/;"	f
+tb_rdn_read_ickbd	tb_flash_func.c	/^void tb_rdn_read_ickbd(){$/;"	f
+tb_rdn_read_m0_ckbd	tb_flash_func.c	/^void tb_rdn_read_m0_ckbd(){$/;"	f
+tb_rdn_read_m0_ckbd_cg3p5v	tb_flash_func.c	/^void tb_rdn_read_m0_ckbd_cg3p5v(){$/;"	f
+tb_rdn_read_m0_ickbd	tb_flash_func.c	/^void tb_rdn_read_m0_ickbd(){$/;"	f
+tb_rdn_read_m0_ickbd_cg3p5v	tb_flash_func.c	/^void tb_rdn_read_m0_ickbd_cg3p5v(){$/;"	f
+tb_rdn_read_m1_ckbd	tb_flash_func.c	/^void tb_rdn_read_m1_ckbd(){$/;"	f
+tb_rdn_read_m1_ff	tb_flash_func.c	/^void tb_rdn_read_m1_ff(){$/;"	f
+tb_rdn_read_m1_ht_ckbd	tb_flash_func.c	/^void tb_rdn_read_m1_ht_ckbd(){$/;"	f
+tb_rdn_read_m1_ht_ff	tb_flash_func.c	/^void tb_rdn_read_m1_ht_ff(){$/;"	f
+tb_rdn_read_m1_ht_ickbd	tb_flash_func.c	/^void tb_rdn_read_m1_ht_ickbd(){$/;"	f
+tb_rdn_read_m1_ickbd	tb_flash_func.c	/^void tb_rdn_read_m1_ickbd(){$/;"	f
+tb_rdn_sector_erase	tb_flash_func.c	/^void tb_rdn_sector_erase(){$/;"	f
+tb_read_repair_addr	common_flash.c	/^void tb_read_repair_addr(){$/;"	f
+tb_read_stb_reg	tb_flash_func.c	/^void tb_read_stb_reg(){$/;"	f
+tb_read_timing_reg	tb_flash_func.c	/^void tb_read_timing_reg(){$/;"	f
+tb_reload_all_trim_code	tb_flash_func.c	/^void tb_reload_all_trim_code(){$/;"	f
+tb_reload_all_trim_code_CP1	tb_flash_func.c	/^void tb_reload_all_trim_code_CP1(){$/;"	f
+tb_soc_power_reset	tb_soc_func.c	/^void tb_soc_power_reset(){$/;"	f
+tb_soc_power_set_0	tb_soc_func.c	/^void tb_soc_power_set_0(){$/;"	f
+tb_vread1_sector_erase_retry	tb_flash_func.c	/^void tb_vread1_sector_erase_retry(){$/;"	f
+tb_vread_triming	tb_flash_func.c	/^void tb_vread_triming(){$/;"	f
+tb_write_soc_reg	tb_flash_func.c	/^void tb_write_soc_reg(){$/;"	f
+tb_write_timing_reg	tb_flash_func.c	/^void tb_write_timing_reg(){$/;"	f
+temp1	tb_debug_func.c	/^unsigned int temp1[DDUTCNT][FLASH_NUM]={0};$/;"	v
+temp10	tb_flash_func.c	/^int temp10[DDUTCNT][FLASH_NUM]={0};$/;"	v
+temp11	tb_flash_func.c	/^int temp11[DDUTCNT][FLASH_NUM]={0};$/;"	v
+temp12	tb_flash_func.c	/^int temp12[DDUTCNT][FLASH_NUM]={0};$/;"	v
+temp2	tb_debug_func.c	/^unsigned int temp2[DDUTCNT][FLASH_NUM]={0};$/;"	v
+temp3	tb_debug_func.c	/^unsigned int temp3[DDUTCNT][FLASH_NUM]={0};$/;"	v
+tm0_vol	tb_efa_func.c	/^double tm0_vol=0.5; \/\/-- for EFA_40_128Kx64$/;"	v
+tm_pinlist	tb_efa_func.c	/^char *tm_pinlist[FLASH_NUM]={"EF0_TM0", "EF1_TM0"};$/;"	v
+ulConfigCfm	fcm.c	/^void ulConfigCfm(char *pinlist, int startxbit,int stopxbit,int startybit,int stopybit)$/;"	f
+ulConfigCfm_MMA	fcm.c	/^void ulConfigCfm_MMA(char *pinlist, int startxbit,int stopxbit,int startybit,int stopybit)$/;"	f
+ulConfigFcm	fcm.c	/^void ulConfigFcm(char *pinlist, int xbit, int ybit, int transfer_size)$/;"	f
+ulConfigUbm	ubm.c	/^void ulConfigUbm(char *pinlist, int func_select_cbit, int jump_select_cbit) $/;"	f
+ulCreatePinListWithList	common.c	/^void ulCreatePinListWithList(char *plst, int type, ...)$/;"	f
+ulCreatePinListWithNumber	common.c	/^void ulCreatePinListWithNumber(char *plst, int type, int num)$/;"	f
+ulDisableFcm	fcm.c	/^void ulDisableFcm(void)$/;"	f
+ulDisableUbm	ubm.c	/^void ulDisableUbm(void)$/;"	f
+ulPresetCfm	fcm.c	/^void ulPresetCfm()$/;"	f
+ulPresetFcm	fcm.c	/^void ulPresetFcm()$/;"	f
+ulPresetFcmAll	fcm.c	/^void ulPresetFcmAll()$/;"	f
+ulPresetUbm	ubm.c	/^void ulPresetUbm(USlider data)$/;"	f
+ulReadCfm	fcm.c	/^void ulReadCfm(unsigned int *data, int size, int x_st, int x_sp,int y_st, int y_sp, int dut)$/;"	f
+ulReadFcm	fcm.c	/^void ulReadFcm(unsigned int *data, int size, int x_st, int x_sp, int y_st, int y_sp, int dut)$/;"	f
+ulSetSettlingTime	common.c	/^void ulSetSettlingTime(double t,double t1,double t2)\/\/--t:MVM\/VSIM t1\/t2:ISVM$/;"	f
+ulWriteUbm	ubm.c	/^void ulWriteUbm(char *pinlist, int startaddr, int stopaddr, unsigned int data3, unsigned int data2, unsigned int data1, int dut)$/;"	f
+ulWriteUbm_L32	ubm.c	/^void ulWriteUbm_L32(char *pinlist, int startaddr, int stopaddr,  unsigned int data1, int dut)$/;"	f
+vi_io	flash_info.h	80;"	d
+vo_io	flash_info.h	81;"	d
+vref10_trim_result	flash_info.c	/^double vref10_trim_result[REF_trimcount][DDUTCNT] = {0};$/;"	v
+vref10_value_code	flash_info.c	/^unsigned int vref10_value_code[REF_trimcount][DDUTCNT] = {0};$/;"	v
+vsname	common.h	/^	char vsname[100];$/;"	m	struct:__anon1
+vsno	common.h	/^	int vsno;$/;"	m	struct:__anon1
+vsno_ef0_vpp	flash_info.h	73;"	d
+vsno_ef1_vpp	flash_info.h	74;"	d
+vsno_ef2_vpp	flash_info.h	75;"	d
+vsno_ef3_vpp	flash_info.h	76;"	d
+vsno_vdd11	flash_info.h	71;"	d
+vsno_vdd33	flash_info.h	70;"	d
+vt_io	flash_info.h	82;"	d
+write_mask_high	tb_efa_func.c	/^int write_mask_high=0x400000;$/;"	v
+write_mask_low	tb_efa_func.c	/^int write_mask_low=0x800000;$/;"	v

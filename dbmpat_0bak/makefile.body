@@ -1,0 +1,36 @@
+include makefile.source
+
+obj_dbm: ${CSV:.csv=.o}
+%.o: %.dbm
+ifeq ($(status),online)
+	arm-marvell-linux-gnueabi-objcopy -I binary -O elf32-littlearm -B ${ATFSSITEARCH} $< $@
+endif
+ifeq ($(status),offline)
+	objcopy -I binary -O elf32-i386 -B ${ATFSSERVERARCH} $< $@
+endif
+
+obj_csv: ${CSV:.csv=.o}
+%.o: %.csv
+ifeq ($(status),online)
+	./PatConCsv/patconv.sh $<
+	arm-marvell-linux-gnueabi-objcopy -I binary -O elf32-littlearm -B ${ATFSSITEARCH} ${<:.csv=.dbm} $@
+endif
+ifeq ($(status),offline)
+	./PatConCsv/patconv.sh $<
+	objcopy -I binary -O elf32-i386 -B ${ATFSSERVERARCH} ${<:.csv=.dbm} $@
+endif
+
+mpa:
+	for list in *.asc;do trans $$list;done
+
+cln_all:
+	\rm -f ${CSV:.csv=.o} ${CSV:.csv=.mpa} ${CSV:.csv=.dbm} ${CSV:.csv=.h} ${CSV:.csv=.asc}
+	for list in *.mpa;do rm -f $$list;done
+
+dbm_load_gen:
+	/usr/bin/perl ./PatConCsv/dbmloadgen.pl
+
+csv_sou_gen:
+	/usr/bin/perl ./PatConCsv/logicsougen.pl
+
+

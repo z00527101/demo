@@ -1,0 +1,16 @@
+include ./dbmpat/makefile.source
+
+PRO_CP1=T1_4G4_JIX_09JP_64C_MST_V0P6
+PRO_CP2=T2_4G4_JIX_09JP_64C_MST_V0P6
+PRO_CP3=T3_4G4_JIX_09JP_64C_MST_V0P6
+PRO_OS=OS_4G4_JIX_09JP_64C_MST_V0P6
+PRO_EFA=EFA_4G4_JIX_09JP_64C_MST_V0P6
+PRO_DEBUG=DEBUG_4G4_JIX_09JP_64C_MST_V0P6
+#PRO_DEBUG=main_debug
+#PRO_PATCH=main_patch
+#SRCS=$(shell ls *.c)
+SRCS=$(shell ls *.c|grep -v "main.c")
+
+LIBP=${CSV:%.csv=./dbmpat/%.o} 
+
+

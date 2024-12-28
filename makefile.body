@@ -1,0 +1,102 @@
+include makefile.source
+
+ifeq ($(status),online)
+ARCH		= ${ATFSSITEARCH}
+#CC		= ${ATFSSITECC} 
+CC 		= arm-marvell-linux-gnueabi-g++
+ATFS_CFLAGS	= ${ATFSSITECFLAGS} -g
+endif
+
+ifeq ($(status),offline)
+ARCH		= ${ATFSSERVERARCH}
+#CC		= ${ATFSSYSPCC} 
+CC 		= g++
+ATFS_CFLAGS	= ${ATFSSYSPCFLAGS} -g
+endif
+
+OBJS		= ${SRCS:%.c=%.o}
+
+ATFS_INCS	= -I${ATFSROOT}/${ARCH}/${ATFSSITEOS}/${ATFSATL}/include \
+		  -I${ATFSROOT}/${ARCH}/${ATFSSITEOS}/${ATFSSYS}/include \
+		  -I${ATFSROOT}/${ARCH}/${ATFSSITEOS}/${ATFSTBUS}/include \
+		  -I${ATFSROOT}/${ARCH}/${ATFSSITEOS}/${ATFSVTC}/include
+
+ATFS_LIBS	= -L${ATFSROOT}/${ARCH}/${ATFSOS}/${ATFSCOMP}/${ATFSTMODEL}/lib  \
+		  -L${ATFSROOT}/${ARCH}/${ATFSOS}/${ATFSSYS}/lib                 \
+		  -L${ATFSROOT}/${ARCH}/${ATFSOS}/${ATFSDIAG}/${ATFSTMODEL}/lib  \
+		  -L${ATFSROOT}/${ARCH}/${ATFSOS}/${ATFSTBUS}/lib                \
+		  -L${ATFSROOT}/${ARCH}/${ATFSOS}/${ATFSVTC}/${ATFSTMODEL}/lib   \
+		  -L${ATFSROOT}/${ARCH}/${ATFSOS}/ATFSnamazu/lib                 \
+		  -latfsmcicl                                    \
+		  -latfssock                                     \
+		  -latfsvtc                                      \
+		  -latfstb                                       \
+		  -latfssc                                       \
+		  -latfshn                                       \
+		  -latfsrc                                       \
+		  -latfsflow                                     \
+		  -latfsfm                                       \
+		  -latfspf                                       \
+		  -latfscommon                                   \
+		  -latfsem                                       \
+		  -latfsew                                       \
+		  -lnsl                                          \
+		  -lm                                            \
+		  -ldl                                           \
+		  -lrt
+
+pro: maincp1 maincp2 maincp3 mainos mainefa maindebug ${PRO_CP1} ${PRO_CP2}  ${PRO_CP3} ${PRO_OS} ${PRO_EFA} ${PRO_DEBUG}
+${PRO_CP1}:${OBJS} main_cp1.o
+	${CC} ${ATFS_CFLAGS} ${ATFS_LIBS}  ${LIBP} -o $@ ${OBJS} main_cp1.o 
+
+${PRO_CP2}:${OBJS} main_cp2.o
+	${CC} ${ATFS_CFLAGS} ${ATFS_LIBS}  ${LIBP} -o $@ ${OBJS} main_cp2.o 
+
+${PRO_CP3}:${OBJS} main_cp3.o
+	${CC} ${ATFS_CFLAGS} ${ATFS_LIBS}  ${LIBP} -o $@ ${OBJS} main_cp3.o 
+
+${PRO_OS}:${OBJS} main_os.o
+	${CC} ${ATFS_CFLAGS} ${ATFS_LIBS}  ${LIBP} -o $@ ${OBJS} main_os.o 
+
+${PRO_EFA}:${OBJS} main_efa.o
+	${CC} ${ATFS_CFLAGS} ${ATFS_LIBS}  ${LIBP} -o $@ ${OBJS} main_efa.o 
+
+${PRO_DEBUG}:${OBJS} main_debug.o
+	${CC} ${ATFS_CFLAGS} ${ATFS_LIBS}  ${LIBP} -o $@ ${OBJS} main_debug.o 
+
+#${PRO_DEBUG}:${OBJS} main_debug.o
+#	${CC} ${ATFS_CFLAGS} ${ATFS_LIBS}  ${LIBP} -o $@ ${OBJS} main_debug.o 
+
+#${PRO_PATCH}:${OBJS} main_patch.o
+#	${CC} ${ATFS_CFLAGS} ${ATFS_LIBS}  ${LIBP} -o $@ ${OBJS} main_patch.o 
+
+
+
+%.o:%.c
+	$(CC) $(ATFS_CFLAGS) -Wno-write-strings $(ATFS_INCS) -c $< 
+
+maincp1:main.c
+	$(CC) $(ATFS_CFLAGS) -Wno-write-strings $(ATFS_INCS) -D CP1 -c main.c -o main_cp1.o
+maincp2:main.c
+	$(CC) $(ATFS_CFLAGS) -Wno-write-strings $(ATFS_INCS) -D CP2 -c main.c -o main_cp2.o
+maincp3:main.c
+	$(CC) $(ATFS_CFLAGS) -Wno-write-strings $(ATFS_INCS) -D CP3 -c main.c -o main_cp3.o
+mainos:main.c
+	$(CC) $(ATFS_CFLAGS) -Wno-write-strings $(ATFS_INCS) -D OS -c main.c -o main_os.o
+mainefa:main.c
+	$(CC) $(ATFS_CFLAGS) -Wno-write-strings $(ATFS_INCS) -D EFA -c main.c -o main_efa.o
+maindebug:main.c
+	$(CC) $(ATFS_CFLAGS) -Wno-write-strings $(ATFS_INCS) -D DEBUG -c main.c -o main_debug.o
+
+#maindebug:main.c
+#	$(CC) $(ATFS_CFLAGS) -Wno-write-strings $(ATFS_INCS) -D DEBUG -c main.c -o main_debug.o
+
+#mainpatch:main.c
+#	$(CC) $(ATFS_CFLAGS) -Wno-write-strings $(ATFS_INCS) -D PATCH -c main.c -o main_patch.o
+
+
+
+cln:
+	rm -f *.o ${PRO_CP1} ${PRO_CP2} ${PRO_CP3} ${PRO_OS} ${PRO_EFA} ${PRO_DEBUG}
+
+

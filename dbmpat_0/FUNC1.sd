@@ -1,0 +1,1878 @@
+@@PATTERN_DEFINE
+
+
+
+                     PATTERN1:XXXX1XXXXXXXXXXXXXXXXXXXXXX;   
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;RPT 1000;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                       BGP_St:XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:7f
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;RPT 400;//stop
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//receive:79(ACK);1F(NACK);
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:ab
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//stop
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:54
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;RPT 100;//stop
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:01
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//stop
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:fe
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even
+                       BGP_SP:XXXX1XXXXXXXXXXXXXXXXXXXXXX;RPT 100;//stop 
+                PA4_CALIB_ST1:XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                      
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                   
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                                     
+                PA4_CALIB_SP1:XX0X1XXXXXXXXXXXXXXXXXXXXXX;                        
+                     LPLDO_ST:XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:ab
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//stop
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:54
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;RPT 100;//stop
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:02
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//stop
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:fD
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even
+                     LPLDO_SP:XXXX1XXXXXXXXXXXXXXXXXXXXXX;RPT 100;//stop  
+                PA4_CALIB_ST2:XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                      
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                   
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXHLXXXXXXXXXXX;RPT 500;                                     
+                PA4_CALIB_SP2:XX0X1XXXXXXXXXXXXXXXXXXXXXX;   
+                  OPEN_CLK_ST:XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:A3                    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN                        
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP   
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:5C                    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN                        
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;RPT 150;//79                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:40                    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//EVEN                        
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP                               
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:02
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//stop                              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:10                  
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;                            
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;                               
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:F0 
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;           
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;           
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;           
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;           
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;           
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;           
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;           
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;           
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN     
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP     
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN   
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP   
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN   
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP   
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN   
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP   
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:01
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//stop    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0 
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0 
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0 
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:01
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//stop    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:A2
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                  OPEN_CLK_SP:XXXX1XXXXXXXXXXXXXXXXXXXXXX;RPT 150;//STOP  
+                PA4_CALIB_ST3:XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                      
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                   
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                     
+                PA4_CALIB_SP3:XX0X1XXXXXXXXXXXXXXXXXXXXXX;                    
+                    UNLOCK_ST:XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:A3  
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN      
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP      
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:5C  
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN      
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;RPT 150;//79
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:40
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:01
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//stop    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:6C
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN   
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP   
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:A7
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:D9
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:3A
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:86
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:FF
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:FF
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:FF
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:FF
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:EF
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                    UNLOCK_SP:XXXX1XXXXXXXXXXXXXXXXXXXXXX;RPT 150;//STOP 
+                PA4_CALIB_ST4:XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                      
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                   
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                     
+                PA4_CALIB_SP4:XX0X1XXXXXXXXXXXXXXXXXXXXXX;                       
+                   DOWN_LP_ST:XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:A3  
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN      
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP      
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:5C  
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;            
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN      
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;RPT 150;//79
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:40
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:01
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//stop    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:6C
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP  
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//BCC START:3C
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN        
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//BCC STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN   
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP   
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN   
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP   
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN   
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP   
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN   
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP   
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN   
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP   
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0E
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//EVEN   
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP   
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN   
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP   
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN   
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP   
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:1F
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                   DOWN_LP_SP:XXXX1XXXXXXXXXXXXXXXXXXXXXX;RPT 150//STOP 
+                PA4_CALIB_ST5:XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                      
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                   
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                     
+                PA4_CALIB_SP5:XX0X1XXXXXXXXXXXXXXXXXXXXXX; 
+                 PATTERN1_END:XX0X1XXXXXXXXXXXXXXXXXXXXXX;                                     
+                  CLOSE_LDOST:XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:A3    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN        
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP        
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:5C    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN        
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;RPT 150;//79  
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:40    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//EVEN        
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP        
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:01    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even        
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//stop        
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:6C    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;              
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN        
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP        
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:D4
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:02
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//stop    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN   
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP   
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:10
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;         
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN   
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP   
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//start:02
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//even    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//stop    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0 
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:10
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:0 
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;//STOP    
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//START:F9
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX1XXXXXXXXXXXXXXXXXXXXXX;          
+                              XXXX0XXXXXXXXXXXXXXXXXXXXXX;//EVEN    
+                  CLOSE_LDOSP:XXXX1XXXXXXXXXXXXXXXXXXXXXX;RPT 150;//STOP  
+                PA4_CALIB_ST6:XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                      
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                   
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX0XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                    
+                              XX1XXXXXXXXXXXXXXXXXXXXXXXX;RPT 500;                                     
+                PA4_CALIB_SP6:XX0X1XXXXXXXXXXXXXXXXXXXXXX; 
+                     BIT32_ST:XXXXXXXXXXXXXXXXXXXXXXXX0XX;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX01X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX11X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX01X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX11X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX01X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX11X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX01X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX11X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX01X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX11X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX01X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX11X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX01X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX11X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX01X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX11X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX01X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX11X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX01X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX11X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX01X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX11X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX01X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX11X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX01X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX11X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX01X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX11X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX01X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX11X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX10X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                              XXXXXXXXXXXXXXXXXXXXXXXX00X;                              
+                     BIT32_SP:XXXXXXXXXXXXXXXXXXXXXXXX11X;
+                 PATTERN2_END:XXXXXXXXXXXXXXXXXXXXXXXX11X;                                  
+                  VERIFY_CHAN:XX0XXXXXXXXXXXXXXXXX0X0XXXX;RPT 100;
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;RPT 50;                              
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;// THE 1 DATA IS 0X7,0X5      
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X0XXXX;                              
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;// THE 2 DATA IS 0,0          
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0L1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0H1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0H1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0H1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0L1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0H1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0L1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0H1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;// THE 3 DATA IS 0,0X0       
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0L0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0L0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0L0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0L0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0L0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0L0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0L0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0L0XXXX;                              
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;// THE 4 DATA IS 0XF,0XF        
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1L0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1L0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1L0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1L0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1L0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1L0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1L0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1L1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX1X0XXXX;                              
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;// THE 1 DATA IS 0XX,0XX      
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0H1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0H1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0H1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0H1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0H1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0H1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0H1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0H1XXXX;                              
+                              XX0XXXXXXXXXXXXXXXXX0X0XXXX;                                                           
+                              XX1XXXXXXXXXXXXXXXXX0X0XXXX;                              
+               VERIFY_CHANEND:XX1XXXXXXXXXXXXXXXXX0X0XXXX;                              
+
+
+
+
+
+
+
+
+@@END_PATTERN_DEFINE

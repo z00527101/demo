@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+LABEL	PatConCsv/sub_preconv.pl	/^use constant LABEL=>0;$/;"	c
+LABELLINE	PatConCsv/sub_preconv.pl	/^use constant LABELLINE=>1;$/;"	c
+MAXBUFSIZE	PatConCsv/sub_preconv.pl	/^use constant MAXBUFSIZE=>10000000;$/;"	c
+N_TS_SIZE	PatConCsv/sub_preconv.pl	/^use constant N_TS_SIZE=>5;$/;"	c
+OP	PatConCsv/sub_preconv.pl	/^use constant OP=>1;$/;"	c
+PJT2875BGTRIMCODESETP_dbm_bitmode	PJT2875BGTRIMCODESETP.h	/^const long PJT2875BGTRIMCODESETP_dbm_bitmode = 3;$/;"	v
+PJT2875BGTRIMCODESETP_dbm_data	PJT2875BGTRIMCODESETP.h	/^unsigned int *PJT2875BGTRIMCODESETP_dbm_data = _binary_PJT2875BGTRIMCODESETP_dbm_start;$/;"	v
+PJT2875BGTRIMCODESETP_dbm_size	PJT2875BGTRIMCODESETP.h	/^const long PJT2875BGTRIMCODESETP_dbm_size = (unsigned int)_binary_PJT2875BGTRIMCODESETP_dbm_size;$/;"	v
+PJT2875BGTRIMP_dbm_bitmode	PJT2875BGTRIMP.h	/^const long PJT2875BGTRIMP_dbm_bitmode = 3;$/;"	v
+PJT2875BGTRIMP_dbm_data	PJT2875BGTRIMP.h	/^unsigned int *PJT2875BGTRIMP_dbm_data = _binary_PJT2875BGTRIMP_dbm_start;$/;"	v
+PJT2875BGTRIMP_dbm_size	PJT2875BGTRIMP.h	/^const long PJT2875BGTRIMP_dbm_size = (unsigned int)_binary_PJT2875BGTRIMP_dbm_size;$/;"	v
+PJT2875ENTERTMODEPAT1_dbm_bitmode	PJT2875ENTERTMODEPAT1.h	/^const long PJT2875ENTERTMODEPAT1_dbm_bitmode = 3;$/;"	v
+PJT2875ENTERTMODEPAT1_dbm_data	PJT2875ENTERTMODEPAT1.h	/^unsigned int *PJT2875ENTERTMODEPAT1_dbm_data = _binary_PJT2875ENTERTMODEPAT1_dbm_start;$/;"	v
+PJT2875ENTERTMODEPAT1_dbm_size	PJT2875ENTERTMODEPAT1.h	/^const long PJT2875ENTERTMODEPAT1_dbm_size = (unsigned int)_binary_PJT2875ENTERTMODEPAT1_dbm_size;$/;"	v
+PJT2875FLASHCLEARFLSTSP_dbm_bitmode	PJT2875FLASHCLEARFLSTSP.h	/^const long PJT2875FLASHCLEARFLSTSP_dbm_bitmode = 3;$/;"	v
+PJT2875FLASHCLEARFLSTSP_dbm_data	PJT2875FLASHCLEARFLSTSP.h	/^unsigned int *PJT2875FLASHCLEARFLSTSP_dbm_data = _binary_PJT2875FLASHCLEARFLSTSP_dbm_start;$/;"	v
+PJT2875FLASHCLEARFLSTSP_dbm_size	PJT2875FLASHCLEARFLSTSP.h	/^const long PJT2875FLASHCLEARFLSTSP_dbm_size = (unsigned int)_binary_PJT2875FLASHCLEARFLSTSP_dbm_size;$/;"	v
+PJT2875FLASHCLEARREG6REG7P_dbm_bitmode	PJT2875FLASHCLEARREG6REG7P.h	/^const long PJT2875FLASHCLEARREG6REG7P_dbm_bitmode = 3;$/;"	v
+PJT2875FLASHCLEARREG6REG7P_dbm_data	PJT2875FLASHCLEARREG6REG7P.h	/^unsigned int *PJT2875FLASHCLEARREG6REG7P_dbm_data = _binary_PJT2875FLASHCLEARREG6REG7P_dbm_start;$/;"	v
+PJT2875FLASHCLEARREG6REG7P_dbm_size	PJT2875FLASHCLEARREG6REG7P.h	/^const long PJT2875FLASHCLEARREG6REG7P_dbm_size = (unsigned int)_binary_PJT2875FLASHCLEARREG6REG7P_dbm_size;$/;"	v
+PJT2875FLASHOSCTRIMP_dbm_bitmode	PJT2875FLASHOSCTRIMP.h	/^const long PJT2875FLASHOSCTRIMP_dbm_bitmode = 3;$/;"	v
+PJT2875FLASHOSCTRIMP_dbm_data	PJT2875FLASHOSCTRIMP.h	/^unsigned int *PJT2875FLASHOSCTRIMP_dbm_data = _binary_PJT2875FLASHOSCTRIMP_dbm_start;$/;"	v
+PJT2875FLASHOSCTRIMP_dbm_size	PJT2875FLASHOSCTRIMP.h	/^const long PJT2875FLASHOSCTRIMP_dbm_size = (unsigned int)_binary_PJT2875FLASHOSCTRIMP_dbm_size;$/;"	v
+PJT2875FLASHOSCTRIMSETP_dbm_bitmode	PJT2875FLASHOSCTRIMSETP.h	/^const long PJT2875FLASHOSCTRIMSETP_dbm_bitmode = 3;$/;"	v
+PJT2875FLASHOSCTRIMSETP_dbm_data	PJT2875FLASHOSCTRIMSETP.h	/^unsigned int *PJT2875FLASHOSCTRIMSETP_dbm_data = _binary_PJT2875FLASHOSCTRIMSETP_dbm_start;$/;"	v
+PJT2875FLASHOSCTRIMSETP_dbm_size	PJT2875FLASHOSCTRIMSETP.h	/^const long PJT2875FLASHOSCTRIMSETP_dbm_size = (unsigned int)_binary_PJT2875FLASHOSCTRIMSETP_dbm_size;$/;"	v
+PJT2875FLASHSETREG7P_dbm_bitmode	PJT2875FLASHSETREG7P.h	/^const long PJT2875FLASHSETREG7P_dbm_bitmode = 3;$/;"	v
+PJT2875FLASHSETREG7P_dbm_data	PJT2875FLASHSETREG7P.h	/^unsigned int *PJT2875FLASHSETREG7P_dbm_data = _binary_PJT2875FLASHSETREG7P_dbm_start;$/;"	v
+PJT2875FLASHSETREG7P_dbm_size	PJT2875FLASHSETREG7P.h	/^const long PJT2875FLASHSETREG7P_dbm_size = (unsigned int)_binary_PJT2875FLASHSETREG7P_dbm_size;$/;"	v
+PJT2875LDOBYPASSDISABLEP_dbm_bitmode	PJT2875LDOBYPASSDISABLEP.h	/^const long PJT2875LDOBYPASSDISABLEP_dbm_bitmode = 3;$/;"	v
+PJT2875LDOBYPASSDISABLEP_dbm_data	PJT2875LDOBYPASSDISABLEP.h	/^unsigned int *PJT2875LDOBYPASSDISABLEP_dbm_data = _binary_PJT2875LDOBYPASSDISABLEP_dbm_start;$/;"	v
+PJT2875LDOBYPASSDISABLEP_dbm_size	PJT2875LDOBYPASSDISABLEP.h	/^const long PJT2875LDOBYPASSDISABLEP_dbm_size = (unsigned int)_binary_PJT2875LDOBYPASSDISABLEP_dbm_size;$/;"	v
+PJT2875LDOBYPASSPAT2_dbm_bitmode	PJT2875LDOBYPASSPAT2.h	/^const long PJT2875LDOBYPASSPAT2_dbm_bitmode = 3;$/;"	v
+PJT2875LDOBYPASSPAT2_dbm_data	PJT2875LDOBYPASSPAT2.h	/^unsigned int *PJT2875LDOBYPASSPAT2_dbm_data = _binary_PJT2875LDOBYPASSPAT2_dbm_start;$/;"	v
+PJT2875LDOBYPASSPAT2_dbm_size	PJT2875LDOBYPASSPAT2.h	/^const long PJT2875LDOBYPASSPAT2_dbm_size = (unsigned int)_binary_PJT2875LDOBYPASSPAT2_dbm_size;$/;"	v
+PJT2875OSCTRIMP_dbm_bitmode	PJT2875OSCTRIMP.h	/^const long PJT2875OSCTRIMP_dbm_bitmode = 3;$/;"	v
+PJT2875OSCTRIMP_dbm_data	PJT2875OSCTRIMP.h	/^unsigned int *PJT2875OSCTRIMP_dbm_data = _binary_PJT2875OSCTRIMP_dbm_start;$/;"	v
+PJT2875OSCTRIMP_dbm_size	PJT2875OSCTRIMP.h	/^const long PJT2875OSCTRIMP_dbm_size = (unsigned int)_binary_PJT2875OSCTRIMP_dbm_size;$/;"	v
+PJT2875TRIMEVPPH190624P_dbm_bitmode	PJT2875TRIMEVPPH190624P.h	/^const long PJT2875TRIMEVPPH190624P_dbm_bitmode = 3;$/;"	v
+PJT2875TRIMEVPPH190624P_dbm_data	PJT2875TRIMEVPPH190624P.h	/^unsigned int *PJT2875TRIMEVPPH190624P_dbm_data = _binary_PJT2875TRIMEVPPH190624P_dbm_start;$/;"	v
+PJT2875TRIMEVPPH190624P_dbm_size	PJT2875TRIMEVPPH190624P.h	/^const long PJT2875TRIMEVPPH190624P_dbm_size = (unsigned int)_binary_PJT2875TRIMEVPPH190624P_dbm_size;$/;"	v
+PJT2875TRIMPVPPH190624P_dbm_bitmode	PJT2875TRIMPVPPH190624P.h	/^const long PJT2875TRIMPVPPH190624P_dbm_bitmode = 3;$/;"	v
+PJT2875TRIMPVPPH190624P_dbm_data	PJT2875TRIMPVPPH190624P.h	/^unsigned int *PJT2875TRIMPVPPH190624P_dbm_data = _binary_PJT2875TRIMPVPPH190624P_dbm_start;$/;"	v
+PJT2875TRIMPVPPH190624P_dbm_size	PJT2875TRIMPVPPH190624P.h	/^const long PJT2875TRIMPVPPH190624P_dbm_size = (unsigned int)_binary_PJT2875TRIMPVPPH190624P_dbm_size;$/;"	v
+PJT2875TRIMVNN190624P_dbm_bitmode	PJT2875TRIMVNN190624P.h	/^const long PJT2875TRIMVNN190624P_dbm_bitmode = 3;$/;"	v
+PJT2875TRIMVNN190624P_dbm_data	PJT2875TRIMVNN190624P.h	/^unsigned int *PJT2875TRIMVNN190624P_dbm_data = _binary_PJT2875TRIMVNN190624P_dbm_start;$/;"	v
+PJT2875TRIMVNN190624P_dbm_size	PJT2875TRIMVNN190624P.h	/^const long PJT2875TRIMVNN190624P_dbm_size = (unsigned int)_binary_PJT2875TRIMVNN190624P_dbm_size;$/;"	v
+PJT2875TRIMVPPM190624P_dbm_bitmode	PJT2875TRIMVPPM190624P.h	/^const long PJT2875TRIMVPPM190624P_dbm_bitmode = 3;$/;"	v
+PJT2875TRIMVPPM190624P_dbm_data	PJT2875TRIMVPPM190624P.h	/^unsigned int *PJT2875TRIMVPPM190624P_dbm_data = _binary_PJT2875TRIMVPPM190624P_dbm_start;$/;"	v
+PJT2875TRIMVPPM190624P_dbm_size	PJT2875TRIMVPPM190624P.h	/^const long PJT2875TRIMVPPM190624P_dbm_size = (unsigned int)_binary_PJT2875TRIMVPPM190624P_dbm_size;$/;"	v
+PJT2875VTRIMP_dbm_bitmode	PJT2875VTRIMP.h	/^const long PJT2875VTRIMP_dbm_bitmode = 3;$/;"	v
+PJT2875VTRIMP_dbm_data	PJT2875VTRIMP.h	/^unsigned int *PJT2875VTRIMP_dbm_data = _binary_PJT2875VTRIMP_dbm_start;$/;"	v
+PJT2875VTRIMP_dbm_size	PJT2875VTRIMP.h	/^const long PJT2875VTRIMP_dbm_size = (unsigned int)_binary_PJT2875VTRIMP_dbm_size;$/;"	v
+XN	PatConCsv/sub_preconv.pl	/^use constant XN=>0;$/;"	c
+addjni	PatConCsv/sub_patcomp.pl	/^sub addjni(){$/;"	s
+analy_jni	PatConCsv/sub_preconv.pl	/^sub analy_jni{$/;"	s
+change_format	PatConCsv/sub_preconv.pl	/^sub change_format{$/;"	s
+get_bitmode	PatConCsv/sub_preconv.pl	/^sub get_bitmode{$/;"	s
+get_jsr_block	PatConCsv/sub_preconv.pl	/^sub get_jsr_block{$/;"	s
+get_loop_count	PatConCsv/sub_preconv.pl	/^sub get_loop_count{$/;"	s
+get_max	PatConCsv/sub_preconv.pl	/^sub get_max{$/;"	s
+make_header	PatConCsv/sub_preconv.pl	/^sub make_header{$/;"	s
+parse_line	PatConCsv/sub_preconv.pl	/^sub parse_line{$/;"	s
+str2num	PatConCsv/sub_preconv.pl	/^sub str2num{$/;"	s
+unfold_jni	PatConCsv/sub_preconv.pl	/^sub unfold_jni{$/;"	s
+unfold_jni_sub	PatConCsv/sub_preconv.pl	/^sub unfold_jni_sub{$/;"	s
+write_temp	PatConCsv/sub_preconv.pl	/^sub write_temp{$/;"	s
